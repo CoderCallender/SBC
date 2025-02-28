@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=MCIMX6Y2DVM09AB
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=289
+Version=2.1
+Released=2019-05-13 05:28:37
+Downloaded=2025-02-15 19:33:53
+3D=Y

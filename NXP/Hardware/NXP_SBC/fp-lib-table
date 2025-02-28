@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "NXP_SBC")(type "KiCad")(uri "${KIPRJMOD}/NXP_SBC.pretty")(options "")(descr ""))
+)

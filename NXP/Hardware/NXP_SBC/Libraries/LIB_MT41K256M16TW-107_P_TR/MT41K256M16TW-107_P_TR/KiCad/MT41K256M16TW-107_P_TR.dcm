@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MT41K256M16TW-107_P_TR
+D DRAM DDR3 4G 256MX16 FBGA
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Micron%20Technology%20Inc%20PDFs/MT41K_DDR3L_4Gb_Rev.Q_Dec2017_DS.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MP2144GJ-P
+#/537879/1036079/2.50/8/3/Integrated Circuit
+DEF MP2144GJ-P IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "MP2144GJ-P" 950 200 50 H V L CNN
+F2 "SOT65P280X100-8N" 950 100 50 H I L CNN
+F3 "http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/GetDocument?id=522" 950 0 50 H I L CNN
+F4 "Monolithic Power Systems (MPS), MP2144GJ-P Step-Down Switching Regulator 2A Adjustable, Minimum of 0.6 V, 8-Pin TSOT-23" 950 -100 50 H I L CNN "Description"
+F5 "1" 950 -200 50 H I L CNN "Height"
+F6 "946-MP2144GJP" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2144GJ-P?qs=Iq7RKQRjpgoW7cEm9TP09w%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Monolithic Power Systems (MPS)" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MP2144GJ-P" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X PG 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X SW 3 0 -200 200 R 50 50 0 0 P
+X PGND 4 0 -300 200 R 50 50 0 0 P
+X OUT 5 1100 0 200 L 50 50 0 0 P
+X AGND 6 1100 -100 200 L 50 50 0 0 P
+X FB 7 1100 -200 200 L 50 50 0 0 P
+X EN 8 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

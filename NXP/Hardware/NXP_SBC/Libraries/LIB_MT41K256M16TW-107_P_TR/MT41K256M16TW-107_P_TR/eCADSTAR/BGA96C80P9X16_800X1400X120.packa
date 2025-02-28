@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MT41K256M16TW-107_P_TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "BGA96C80P9X16_800X1400X120")
+        (spec "System")
+    )
+)

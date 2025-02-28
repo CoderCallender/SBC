@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCIMX6Y2DVM09AB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-01-06:10:38)
+    (mountForm default
+        (footprintRef "BGA289C80P17X17_1400X1400X132")
+        (spec "System")
+    )
+)

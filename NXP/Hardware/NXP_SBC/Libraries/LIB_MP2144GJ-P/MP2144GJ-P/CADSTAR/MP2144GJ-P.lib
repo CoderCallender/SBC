@@ -1,0 +1,16 @@
+.MP2144GJ-P :1 ;Monolithic Power Systems (MPS), MP2144GJ-P Step-Down Switching Regulator 2A Adjustable, Minimum of 0.6 V, 8-Pin TSOT-23
+SOT65P280X100-8N
+*STM IC
+*NGS
+*PLB 1="PG" 2="VIN" 3="SW" 4="PGND" 5="OUT" 6="AGND" 7="FB" 8="EN"
+*MXP 8
+*DFN MP2144GJ-P
+~!Mouser Part Number (946-MP2144GJP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2144GJ-P?qs=Iq7RKQRjpgoW7cEm9TP09w%3D%3D)
+~!Manufacturer_Name (Monolithic Power Systems (MPS))
+~!Manufacturer_Part_Number (MP2144GJ-P)
+~!Link Datasheet (http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/GetDocument?id=522)
+~!Height (1mm)
+~!3D_Model (MP2144GJ-P)
+MP2144GJ-P
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

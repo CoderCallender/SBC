@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e82fc437-413b-4185-b609-66f66e24e498")
+	(paper "A1")
+	(lib_symbols)
+	(sheet
+		(at 604.52 88.9)
+		(size 109.22 132.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ea4c833-27a6-4c6c-939d-80a3ef0aae04")
+		(property "Sheetname" "Processor"
+			(at 604.52 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Processor.kicad_sch"
+			(at 604.52 221.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 609.6 289.56)
+		(size 106.68 139.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f429e38-2ff0-4459-8cd3-c55c2d765364")
+		(property "Sheetname" "Connectors"
+			(at 609.6 288.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 609.6 429.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 386.08)
+		(size 93.98 129.54)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81dbb7fb-7b83-45a6-930f-5a417c0199b9")
+		(property "Sheetname" "Power"
+			(at 279.4 385.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 279.4 516.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 157.48)
+		(size 93.98 114.3)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cf3598eb-c9d5-4140-bda5-3b7546e36109")
+		(property "Sheetname" "Memory"
+			(at 137.16 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory_sch.kicad_sch"
+			(at 137.16 272.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

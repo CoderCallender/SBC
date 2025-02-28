@@ -1,0 +1,15 @@
+{ Using PSTWRITER 17.4.0 d001Oct-26-2023 at 13:21:05 }
+
+#1 WARNING(ORCAP-36049): Ignoring following Component Definition properties since they also exists as Component Instance properties in Q:\Data\CDS_SITE\allegro.cfg.
+              ASSY_OPT , BOM_IGNORE
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "U101.R13" ignored for U101: i.mx6ull_evk_cm, C-05 CPU PERI2 (12.40, 6.40). Connecting pin to net "GPANAIO".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\PROJECT\2023\MCIMX6ULL-CM\SCHEMATIC\allegro\pstchip.dat
+
+Loading... C:\PROJECT\2023\MCIMX6ULL-CM\SCHEMATIC\allegro\pstchip.dat
+
+Loading... C:\PROJECT\2023\MCIMX6ULL-CM\SCHEMATIC\allegro\pstxprt.dat
+
+Loading... C:\PROJECT\2023\MCIMX6ULL-CM\SCHEMATIC\allegro\pstxnet.dat
+packaging the design view...

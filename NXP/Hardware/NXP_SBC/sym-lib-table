@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NXP_SBC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/NXP_SBC.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MT41K256M16TW_107_P_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Micron", "MT41K256M16TW-107:P TR" (!) = "", "BGA96C80P9X16_800X1400X120", "BGA", "340-265846-REEL", "https://www.mouser.co.uk/ProductDetail/Micron/MT41K256M16TW-107P-TR?qs=j%252B1pi9TdxUafSkKsJ9J8mQ%3D%3D", "DRAM DDR3 4G 256MX16 FBGA", "https://media.digikey.com/pdf/Data%20Sheets/Micron%20Technology%20Inc%20PDFs/MT41K_DDR3L_4Gb_Rev.Q_Dec2017_DS.pdf", "1.2 mm"
+END_PART
+
+END.

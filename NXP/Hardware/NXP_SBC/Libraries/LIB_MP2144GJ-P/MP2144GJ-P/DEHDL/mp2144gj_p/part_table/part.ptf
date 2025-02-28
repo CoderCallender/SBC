@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MP2144GJ_P'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Monolithic Power Systems (MPS)", "MP2144GJ-P" (!) = "", "SOT65P280X100-8N", "SOT23 (8-Pin)", "946-MP2144GJP", "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP2144GJ-P?qs=Iq7RKQRjpgoW7cEm9TP09w%3D%3D", "Monolithic Power Systems (MPS), MP2144GJ-P Step-Down Switching Regulator 2A Adjustable, Minimum of 0.6 V, 8-Pin TSOT-23", "http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/GetDocument?id=522", "1 mm"
+END_PART
+
+END.

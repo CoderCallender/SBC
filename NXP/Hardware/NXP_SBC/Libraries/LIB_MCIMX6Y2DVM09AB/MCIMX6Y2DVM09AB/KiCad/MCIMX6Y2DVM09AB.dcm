@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCIMX6Y2DVM09AB
+D NXP - MCIMX6Y2DVM09AB - MPU, 32BIT, 900MHZ, 0 TO 95DEG C
+K
+F https://www.nxp.com/docs/en/data-sheet/IMX6ULLCEC.pdf
+$ENDCMP
+#
+#End Doc Library
