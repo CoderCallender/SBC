@@ -6136,6 +6136,12 @@
 		(uuid "77de1007-da78-496b-82f3-cf9aee5dc754")
 	)
 	(junction
+		(at 377.19 387.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79e4239e-00a8-42fc-8f08-921881ac8258")
+	)
+	(junction
 		(at 198.12 384.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6235,6 +6241,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 256.54) (xy 217.17 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d66fd5-e97c-4929-9ebf-6ee606f323e7")
+	)
+	(wire
+		(pts
 			(xy 179.07 241.3) (xy 217.17 241.3)
 		)
 		(stroke
@@ -6305,6 +6321,26 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 427.99) (xy 467.36 427.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0682c888-f448-42d3-9107-5f167551f59a")
+	)
+	(wire
+		(pts
+			(xy 449.58 387.35) (xy 467.36 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c8cf04-12b4-4973-b631-b7ad17fe0cb6")
+	)
+	(wire
+		(pts
 			(xy 187.96 111.76) (xy 187.96 114.3)
 		)
 		(stroke
@@ -6345,6 +6381,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 417.83) (xy 467.36 417.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca9eedb-d78e-4876-b812-a2f944181495")
+	)
+	(wire
+		(pts
 			(xy 179.07 290.83) (xy 217.17 290.83)
 		)
 		(stroke
@@ -6352,6 +6398,16 @@
 			(type default)
 		)
 		(uuid "124f8147-8054-4d8b-bbc0-65f898ac173e")
+	)
+	(wire
+		(pts
+			(xy 449.58 450.85) (xy 467.36 450.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126ce772-9949-4abb-aaf9-3f305c69fe18")
 	)
 	(wire
 		(pts
@@ -6405,6 +6461,26 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 394.97) (xy 467.36 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5419b4-1ed7-4319-9b4d-44270ee869e7")
+	)
+	(wire
+		(pts
+			(xy 449.58 461.01) (xy 467.36 461.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d83676d-ed41-4596-bbb8-dc95ce6dc5dc")
+	)
+	(wire
+		(pts
 			(xy 80.01 342.9) (xy 80.01 346.71)
 		)
 		(stroke
@@ -6422,6 +6498,16 @@
 			(type default)
 		)
 		(uuid "1df87f08-d1e4-46fa-b4e3-f22679cc4b56")
+	)
+	(wire
+		(pts
+			(xy 449.58 420.37) (xy 467.36 420.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8b1cf8-8a74-4414-a2fb-721b4cd4172b")
 	)
 	(wire
 		(pts
@@ -6445,6 +6531,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 466.09) (xy 467.36 466.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2580e75a-52d4-4792-a344-ec45ab2ac2a1")
+	)
+	(wire
+		(pts
 			(xy 171.45 381) (xy 171.45 384.81)
 		)
 		(stroke
@@ -6452,6 +6548,16 @@
 			(type default)
 		)
 		(uuid "265227ba-46e7-4b1b-a720-0da510ee45d7")
+	)
+	(wire
+		(pts
+			(xy 449.58 448.31) (xy 467.36 448.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b5e4a4-17e8-4d8f-b943-ec8ff5ffa8a4")
 	)
 	(wire
 		(pts
@@ -6605,6 +6711,26 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 438.15) (xy 467.36 438.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdec335-b461-43b4-a5c8-f951b1024142")
+	)
+	(wire
+		(pts
+			(xy 449.58 435.61) (xy 467.36 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425fc473-cf78-4d42-abd3-e8ea2d7bdb66")
+	)
+	(wire
+		(pts
 			(xy 71.12 259.08) (xy 100.33 259.08)
 		)
 		(stroke
@@ -6632,6 +6758,26 @@
 			(type default)
 		)
 		(uuid "47cd452c-114c-44e4-a43e-ec007872d45f")
+	)
+	(wire
+		(pts
+			(xy 179.07 261.62) (xy 217.17 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b83aa4b-eab3-48d0-b351-8947b9abcf45")
+	)
+	(wire
+		(pts
+			(xy 449.58 430.53) (xy 467.36 430.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d47c8cb-df77-4d30-9eb5-0352887e9758")
 	)
 	(wire
 		(pts
@@ -6732,6 +6878,16 @@
 			(type default)
 		)
 		(uuid "5b83c2e9-380c-4ca9-9731-95c040af9640")
+	)
+	(wire
+		(pts
+			(xy 449.58 433.07) (xy 467.36 433.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce5cde3-5361-4b36-94ca-4614b0441c10")
 	)
 	(wire
 		(pts
@@ -6845,6 +7001,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 455.93) (xy 467.36 455.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7653c707-c908-4c38-9577-985600d899bc")
+	)
+	(wire
+		(pts
 			(xy 171.45 373.38) (xy 171.45 375.92)
 		)
 		(stroke
@@ -6852,6 +7018,16 @@
 			(type default)
 		)
 		(uuid "79cb2ff9-0681-49c7-8df1-dac292b9826e")
+	)
+	(wire
+		(pts
+			(xy 377.19 387.35) (xy 377.19 391.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c30c683-b798-4aa5-899e-d441519c078e")
 	)
 	(wire
 		(pts
@@ -6895,6 +7071,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 397.51) (xy 467.36 397.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8688afbb-5bc3-46e9-968f-da3d8b27fd35")
+	)
+	(wire
+		(pts
 			(xy 223.52 308.61) (xy 223.52 311.15)
 		)
 		(stroke
@@ -6905,6 +7091,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 410.21) (xy 467.36 410.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c47cdd9-ad82-4b29-b4d3-9e3a8b9d8661")
+	)
+	(wire
+		(pts
 			(xy 71.12 342.9) (xy 80.01 342.9)
 		)
 		(stroke
@@ -6912,6 +7108,16 @@
 			(type default)
 		)
 		(uuid "8e802aef-510c-448b-918f-4465c03ed1f3")
+	)
+	(wire
+		(pts
+			(xy 449.58 407.67) (xy 467.36 407.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff427e1-9033-44f4-b244-6791707c477b")
 	)
 	(wire
 		(pts
@@ -6935,6 +7141,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 425.45) (xy 467.36 425.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f6e316-9643-41b4-af9a-3a1a64f7a8f3")
+	)
+	(wire
+		(pts
 			(xy 179.07 321.31) (xy 195.58 321.31)
 		)
 		(stroke
@@ -6942,6 +7158,16 @@
 			(type default)
 		)
 		(uuid "974fb43e-d7e5-4b56-a420-bd27087a4b28")
+	)
+	(wire
+		(pts
+			(xy 449.58 443.23) (xy 467.36 443.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f1d6c1-1060-4f02-b6a7-f83c67dab42c")
 	)
 	(wire
 		(pts
@@ -6955,6 +7181,26 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 387.35) (xy 377.19 387.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7cef3c-c3d4-4d45-877f-719a404e907c")
+	)
+	(wire
+		(pts
+			(xy 449.58 463.55) (xy 467.36 463.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de6d2ab-a70f-4036-bd7d-e979b6f911c9")
+	)
+	(wire
+		(pts
 			(xy 198.12 356.87) (xy 198.12 359.41)
 		)
 		(stroke
@@ -6965,6 +7211,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 453.39) (xy 467.36 453.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a239cfb6-a498-445a-84d9-037e86012869")
+	)
+	(wire
+		(pts
 			(xy 214.63 311.15) (xy 223.52 311.15)
 		)
 		(stroke
@@ -6972,6 +7228,16 @@
 			(type default)
 		)
 		(uuid "a52cfc29-190b-46ae-8c3b-d8b1f6708b7e")
+	)
+	(wire
+		(pts
+			(xy 449.58 445.77) (xy 467.36 445.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1ab611-a715-489f-8a16-a901dc28c0f9")
 	)
 	(wire
 		(pts
@@ -7002,6 +7268,16 @@
 			(type default)
 		)
 		(uuid "af8fe2b0-393c-450e-bc87-8e5c0ee65c15")
+	)
+	(wire
+		(pts
+			(xy 449.58 458.47) (xy 467.36 458.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe66152-4d5a-45e2-b89c-667cd455c370")
 	)
 	(wire
 		(pts
@@ -7055,6 +7331,26 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 402.59) (xy 467.36 402.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5adfea-ab58-41f4-bef3-cecfdd046f65")
+	)
+	(wire
+		(pts
+			(xy 449.58 422.91) (xy 467.36 422.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba604766-2009-4f47-b2d6-a581a83cb74a")
+	)
+	(wire
+		(pts
 			(xy 71.12 236.22) (xy 100.33 236.22)
 		)
 		(stroke
@@ -7095,6 +7391,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 415.29) (xy 467.36 415.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60b346d-0ccc-4103-8911-7cbe4447ef82")
+	)
+	(wire
+		(pts
 			(xy 195.58 326.39) (xy 195.58 328.93)
 		)
 		(stroke
@@ -7115,6 +7421,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 259.08) (xy 217.17 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d90a89-738b-477f-9268-c21cb35bd84d")
+	)
+	(wire
+		(pts
 			(xy 71.12 254) (xy 100.33 254)
 		)
 		(stroke
@@ -7122,6 +7438,16 @@
 			(type default)
 		)
 		(uuid "cc0a0a6d-e2d1-4301-87c1-7d3a7d36cc54")
+	)
+	(wire
+		(pts
+			(xy 449.58 412.75) (xy 467.36 412.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf5156e-a80c-490b-84a7-9f4cb2fa6004")
 	)
 	(wire
 		(pts
@@ -7225,6 +7551,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 440.69) (xy 467.36 440.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a0d695-13f7-4595-a3a8-2d26e6be40bb")
+	)
+	(wire
+		(pts
 			(xy 80.01 342.9) (xy 100.33 342.9)
 		)
 		(stroke
@@ -7242,6 +7578,16 @@
 			(type default)
 		)
 		(uuid "e8faedfb-dd53-45bf-810a-510b2cc4c0fb")
+	)
+	(wire
+		(pts
+			(xy 449.58 400.05) (xy 467.36 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9af5d3d-30b9-48ac-af20-72b4a4ee5164")
 	)
 	(wire
 		(pts
@@ -7305,6 +7651,26 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 387.35) (xy 377.19 379.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38f7114-5354-4420-ab01-e5c8671ddbce")
+	)
+	(wire
+		(pts
+			(xy 377.19 396.24) (xy 377.19 400.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa271eb9-d650-4440-a3fb-60940c675c44")
+	)
+	(wire
+		(pts
 			(xy 71.12 285.75) (xy 100.33 285.75)
 		)
 		(stroke
@@ -7344,6 +7710,17 @@
 		)
 		(uuid "00fc2750-b72e-4c4d-9d76-60ff89552cc9")
 	)
+	(hierarchical_label "LCD_DATA14"
+		(shape input)
+		(at 467.36 443.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02a1fa47-8947-4853-89b4-2e0a36f69ad2")
+	)
 	(hierarchical_label "DRAM_ADDR02"
 		(shape input)
 		(at 71.12 241.3 180)
@@ -7365,6 +7742,17 @@
 			(justify left)
 		)
 		(uuid "1810434c-e267-45f2-9be2-e86211bb795c")
+	)
+	(hierarchical_label "LCD_DATA08"
+		(shape input)
+		(at 467.36 427.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1908ea04-06ec-4a7f-83a2-61f950849eed")
 	)
 	(hierarchical_label "DRAM_ADDR07"
 		(shape input)
@@ -7399,6 +7787,17 @@
 		)
 		(uuid "333b6714-2d1d-4e11-900e-99d1f9413784")
 	)
+	(hierarchical_label "LCD_DATA03"
+		(shape input)
+		(at 467.36 415.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "338a3c76-c9a8-4220-af93-d174732c0f6a")
+	)
 	(hierarchical_label "DRAM_SDQS1_P"
 		(shape input)
 		(at 217.17 285.75 0)
@@ -7409,6 +7808,28 @@
 			(justify left)
 		)
 		(uuid "350882fc-84aa-4d70-9520-5410183200d8")
+	)
+	(hierarchical_label "DRAM_SDQS0_P"
+		(shape input)
+		(at 217.17 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "351bf18d-0eb5-4482-bc16-424231ab0d7a")
+	)
+	(hierarchical_label "LCD_DATA20"
+		(shape input)
+		(at 467.36 458.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b79b732-3af2-47cd-a5bf-8f70bceafd38")
 	)
 	(hierarchical_label "DRAM_SDQS1_N"
 		(shape input)
@@ -7443,6 +7864,39 @@
 		)
 		(uuid "489450f9-e2d9-4e5f-8e09-52677f19ef27")
 	)
+	(hierarchical_label "LCD_HSYNC"
+		(shape input)
+		(at 467.36 397.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a1483bd-9e33-466a-b449-d58e892c4d6b")
+	)
+	(hierarchical_label "DRAM_SDSO_N"
+		(shape input)
+		(at 217.17 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "528792cb-c8fc-4bf0-8046-bb41bbf778aa")
+	)
+	(hierarchical_label "LCD_DATA18"
+		(shape input)
+		(at 467.36 453.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "547de228-7ff0-4337-aaa1-7cd9a0bbbbeb")
+	)
 	(hierarchical_label "DRAM_ADDR03"
 		(shape input)
 		(at 71.12 243.84 180)
@@ -7454,6 +7908,17 @@
 		)
 		(uuid "61e38ead-c310-46a0-a9f0-df61b127b160")
 	)
+	(hierarchical_label "LCD_DATA00"
+		(shape input)
+		(at 467.36 407.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "622e60f3-c96d-4fcf-9d80-ca6579abbf22")
+	)
 	(hierarchical_label "DRAM_SDCLK0_P"
 		(shape input)
 		(at 71.12 316.23 180)
@@ -7464,6 +7929,17 @@
 			(justify right)
 		)
 		(uuid "62cdc81e-e617-4b75-9edb-318fc3070a77")
+	)
+	(hierarchical_label "LCD_DATA16"
+		(shape input)
+		(at 467.36 448.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6611cc1a-88e9-467e-99c9-d55795f09cb8")
 	)
 	(hierarchical_label "DRAM_DATA1"
 		(shape input)
@@ -7531,6 +8007,17 @@
 		)
 		(uuid "753399fc-c8cd-432d-87fb-dc96b7c2b6a6")
 	)
+	(hierarchical_label "LCD_DATA23"
+		(shape input)
+		(at 467.36 466.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79b02339-0626-4be4-925e-2012f1f108a3")
+	)
 	(hierarchical_label "DRAM_ADDR09"
 		(shape input)
 		(at 71.12 259.08 180)
@@ -7564,6 +8051,28 @@
 		)
 		(uuid "8970f8db-8957-448e-8de8-641021604160")
 	)
+	(hierarchical_label "LCD_DATA06"
+		(shape input)
+		(at 467.36 422.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95bdd222-8f6c-416c-bbeb-f09ea99698e5")
+	)
+	(hierarchical_label "LCD_DATA04"
+		(shape input)
+		(at 467.36 417.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "966e2e6f-b370-4482-814e-fdcaec46e5c9")
+	)
 	(hierarchical_label "DRAM_ADDR01"
 		(shape input)
 		(at 71.12 238.76 180)
@@ -7574,6 +8083,17 @@
 			(justify right)
 		)
 		(uuid "9678b36a-ed8d-4a6f-af42-79ac146fbe87")
+	)
+	(hierarchical_label "LCD_DATA09"
+		(shape input)
+		(at 467.36 430.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97696a0a-c98a-40e4-bde0-4e2fc518b475")
 	)
 	(hierarchical_label "DRAM_ADDR12"
 		(shape input)
@@ -7597,6 +8117,17 @@
 		)
 		(uuid "9f4a2167-4248-49b6-9ced-2b924222afd7")
 	)
+	(hierarchical_label "LCD_ENABLE"
+		(shape input)
+		(at 467.36 394.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a41746f9-7432-4c6d-9087-531e3556f365")
+	)
 	(hierarchical_label "DRAM_ADDR08"
 		(shape input)
 		(at 71.12 256.54 180)
@@ -7619,6 +8150,17 @@
 		)
 		(uuid "a50e38bf-342a-4365-8fef-559c396397d6")
 	)
+	(hierarchical_label "LCD_DATA15"
+		(shape input)
+		(at 467.36 445.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a531ebca-b57f-40dd-8a4f-dfae7506d2c5")
+	)
 	(hierarchical_label "DRAM_DATA4"
 		(shape input)
 		(at 217.17 246.38 0)
@@ -7629,6 +8171,17 @@
 			(justify left)
 		)
 		(uuid "a7438200-2662-4c85-ae0a-af501b27dc4a")
+	)
+	(hierarchical_label "LCD_RESET"
+		(shape input)
+		(at 467.36 402.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8d8fdd2-2e0d-4700-aee7-9efae4a6664c")
 	)
 	(hierarchical_label "DRAM_DATA0"
 		(shape input)
@@ -7652,6 +8205,61 @@
 		)
 		(uuid "ac39b2d4-658d-47cc-ba7d-0022c0189e49")
 	)
+	(hierarchical_label "LCD_DATA22"
+		(shape input)
+		(at 467.36 463.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac44357c-75f7-41df-93e0-48ed96b05137")
+	)
+	(hierarchical_label "LCD_DATA02"
+		(shape input)
+		(at 467.36 412.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad1648b9-cd2d-4b7f-9d85-b5e781fd4fc3")
+	)
+	(hierarchical_label "LCD_DATA01"
+		(shape input)
+		(at 467.36 410.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad3b1d51-bba4-4f79-8f61-283a7933da55")
+	)
+	(hierarchical_label "LCD_DATA10"
+		(shape input)
+		(at 467.36 433.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad9a7538-e00f-4f22-a78b-a737890368f5")
+	)
+	(hierarchical_label "LCD_DATA17"
+		(shape input)
+		(at 467.36 450.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae81f2c5-8e85-44ff-8b06-ed09e19716f3")
+	)
 	(hierarchical_label "DRAM_ADDR06"
 		(shape input)
 		(at 71.12 251.46 180)
@@ -7674,6 +8282,17 @@
 		)
 		(uuid "b4e8bb59-499b-42a9-ba07-5d7180fe15da")
 	)
+	(hierarchical_label "LCD_DATA13"
+		(shape input)
+		(at 467.36 440.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6658556-d72d-4db6-a229-30e1915366c4")
+	)
 	(hierarchical_label "DRAM_DATA12"
 		(shape input)
 		(at 217.17 275.59 0)
@@ -7684,6 +8303,17 @@
 			(justify left)
 		)
 		(uuid "b7215f23-fa9e-41d1-ab0b-6d7c2a2bddb3")
+	)
+	(hierarchical_label "LCD_DATA07"
+		(shape input)
+		(at 467.36 425.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b83b2471-e869-419f-b8ce-0db23562a8ea")
 	)
 	(hierarchical_label "DRAM_DATA7"
 		(shape input)
@@ -7707,6 +8337,17 @@
 		)
 		(uuid "bd0bf7e1-b569-429b-a298-ccbaea00494b")
 	)
+	(hierarchical_label "LCD_DATA11"
+		(shape input)
+		(at 467.36 435.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bee874df-0c56-439d-9f96-77a1a97e1cf5")
+	)
 	(hierarchical_label "DRAM_SDCLK0_N"
 		(shape input)
 		(at 71.12 318.77 180)
@@ -7728,6 +8369,28 @@
 			(justify left)
 		)
 		(uuid "c79fe04d-ad61-4caf-91a1-b07616ebf7a7")
+	)
+	(hierarchical_label "LCD_DATA05"
+		(shape input)
+		(at 467.36 420.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c81363fa-49cb-49db-aa6b-10fb36b5f9ae")
+	)
+	(hierarchical_label "LCD_DATA21"
+		(shape input)
+		(at 467.36 461.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca0a83ae-efe9-49d2-aadb-8190967e202c")
 	)
 	(hierarchical_label "DRAM_DATA11"
 		(shape input)
@@ -7762,6 +8425,17 @@
 		)
 		(uuid "daf526d9-4c28-48fd-9ae6-ad8c4d8eced3")
 	)
+	(hierarchical_label "DRAM_DQM0"
+		(shape input)
+		(at 217.17 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd1e0c25-4ba1-4215-b7e4-a67ddc8e66e0")
+	)
 	(hierarchical_label "DRAM_CS1_B"
 		(shape input)
 		(at 71.12 295.91 180)
@@ -7772,6 +8446,39 @@
 			(justify right)
 		)
 		(uuid "e4d34ff2-7c42-4ca4-85c7-16721f2d0a18")
+	)
+	(hierarchical_label "LCD_DATA12"
+		(shape input)
+		(at 467.36 438.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e88b0251-b7b9-45c6-9325-355e7fc6d6c0")
+	)
+	(hierarchical_label "LCD_VSYNC"
+		(shape input)
+		(at 467.36 400.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eda3241e-c603-4f13-a826-3d2cf2f4e16d")
+	)
+	(hierarchical_label "LCD_DATA19"
+		(shape input)
+		(at 467.36 455.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee9112f4-e654-43cc-8b45-3126430fe65b")
 	)
 	(hierarchical_label "DRAM_DATA5"
 		(shape input)
@@ -7849,6 +8556,17 @@
 			(justify right)
 		)
 		(uuid "fb88e30c-2273-4848-86fd-dd1b0b724ee4")
+	)
+	(hierarchical_label "LCD_CLK"
+		(shape input)
+		(at 467.36 387.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc183458-b961-4464-9f90-b92a62bf7706")
 	)
 	(hierarchical_label "DRAM_DATA9"
 		(shape input)
@@ -16726,6 +17444,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 377.19 400.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93291862-892e-489e-b357-7d6a32f468b5")
+		(property "Reference" "#PWR070"
+			(at 377.19 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 377.19 405.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 377.19 400.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d79100fb-6e54-470b-a946-e91e32805e77")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 210.82 378.46 0)
 		(unit 1)
@@ -16857,6 +17641,72 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V35")
+		(at 377.19 379.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3a57d79-5256-437a-a7bd-70c5da5aa2e1")
+		(property "Reference" "#PWR069"
+			(at 377.19 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_3V3"
+			(at 377.19 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 377.19 379.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cd8ca4b-f656-4fbc-9398-ee9ce60b65cb")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -19091,6 +19941,76 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 377.19 393.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0af55b0-9520-4214-a212-a8cf73d1811d")
+		(property "Reference" "C55"
+			(at 379.73 392.4362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 379.73 394.9762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 377.19 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 377.19 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfcbd56c-c4ec-40dc-bbc6-8ff32cb504de")
+		)
+		(pin "1"
+			(uuid "52026c1a-5986-4a1a-bfdd-dfd237ecf699")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
+					(reference "C55")
 					(unit 1)
 				)
 			)

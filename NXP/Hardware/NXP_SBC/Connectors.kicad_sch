@@ -3881,6 +3881,22 @@
 		(color 0 0 0 0)
 		(uuid "ecf5601f-34c0-400c-9f28-9bdb8d08b469")
 	)
+	(no_connect
+		(at 120.65 110.49)
+		(uuid "087a88a9-e555-4820-8c7e-8fc70ac63c62")
+	)
+	(no_connect
+		(at 120.65 105.41)
+		(uuid "5d01d895-70ba-47d0-926e-a7eed69fc7f6")
+	)
+	(no_connect
+		(at 120.65 107.95)
+		(uuid "d1f8d99b-46ee-4679-b2d1-ec91979008ce")
+	)
+	(no_connect
+		(at 120.65 113.03)
+		(uuid "ff9b7843-7f65-4ed3-a8aa-f2c0e2b1d3a9")
+	)
 	(wire
 		(pts
 			(xy 107.95 163.83) (xy 118.11 163.83)
@@ -4613,7 +4629,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 134.62 87.63)
+			(xy 137.16 85.09) (xy 137.16 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4640,16 +4656,6 @@
 			(type default)
 		)
 		(uuid "a673550f-0f35-4079-8563-c7267341e1b0")
-	)
-	(wire
-		(pts
-			(xy 110.49 85.09) (xy 134.62 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac04c8a1-af9f-4668-9582-eea80f56f908")
 	)
 	(wire
 		(pts
@@ -5003,6 +5009,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 85.09) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f081c56c-3f97-46a3-83f1-4b6bd6fd26ab")
+	)
+	(wire
+		(pts
 			(xy 77.47 110.49) (xy 87.63 110.49)
 		)
 		(stroke
@@ -5061,16 +5077,6 @@
 		)
 		(uuid "fbf63744-a56d-4cdc-9e17-8aa571656693")
 	)
-	(label "LCD_B4"
-		(at 113.03 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a7bd73a-bdc5-4358-bf02-818029f0a2e6")
-	)
 	(label "TS_RESET"
 		(at 111.76 168.91 0)
 		(effects
@@ -5080,96 +5086,6 @@
 			(justify left bottom)
 		)
 		(uuid "1201bcfc-4370-43b4-9648-eea4cd10e79f")
-	)
-	(label "LCD_R3"
-		(at 77.47 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1da8907f-42e5-4391-9d77-05a7d4bf2285")
-	)
-	(label "LCD_B3"
-		(at 113.03 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1fe49326-87f1-4c9d-87d7-dd60f97c39de")
-	)
-	(label "LCD_BIST"
-		(at 113.03 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34c42870-e165-4a91-ad23-4fe14ae47182")
-	)
-	(label "LCD_G5"
-		(at 77.47 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "355216a1-f014-4f46-ba54-26a889e76710")
-	)
-	(label "LCD_R7"
-		(at 77.47 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "372e3856-4b0a-4dfd-854f-d548c318f785")
-	)
-	(label "LCD_R4"
-		(at 77.47 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "392dab21-97ee-44af-9582-cdff2a6925aa")
-	)
-	(label "LCD_R2"
-		(at 77.47 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e405091-1a34-40c1-8653-ca6d53d788b5")
-	)
-	(label "LCD_G6"
-		(at 77.47 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50e2175e-059c-4196-8cf4-58a973c180e1")
-	)
-	(label "LCD_DEN"
-		(at 113.03 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "589db5ee-cb45-4f39-82e4-2dae46a32245")
 	)
 	(label "TS_INT"
 		(at 111.76 166.37 0)
@@ -5191,36 +5107,6 @@
 		)
 		(uuid "5b003733-6089-4bc7-a715-6d5425a61d1e")
 	)
-	(label "LCD_G1"
-		(at 77.47 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ba00831-a005-4836-99c2-5abc5f708db0")
-	)
-	(label "LCD_R0"
-		(at 77.47 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c5feb9e-d3c5-48fb-a6dc-24ff453c13c1")
-	)
-	(label "LCD_B2"
-		(at 113.03 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a84edf2-718b-47a8-8db1-59042f6bda8a")
-	)
 	(label "LCD_NC"
 		(at 113.03 113.03 0)
 		(effects
@@ -5230,56 +5116,6 @@
 			(justify left bottom)
 		)
 		(uuid "6e894ab7-f654-4d1b-9917-3023133a1f18")
-	)
-	(label "LCD_B6"
-		(at 113.03 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73833c34-2b53-4422-9d63-2413d6291086")
-	)
-	(label "LCD_R1"
-		(at 77.47 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "752c4641-24bd-44f2-ba2a-ba8d4ed55f9a")
-	)
-	(label "LCD_CLK"
-		(at 113.03 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f50c33b-d722-4151-a236-43e82df7a640")
-	)
-	(label "LCD_B1"
-		(at 113.03 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "830ee929-1794-4029-8c1d-4ca2cfd245ab")
-	)
-	(label "LCD_HSYNC"
-		(at 113.03 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "849c88e1-8b72-4bad-b14a-6863a4963687")
 	)
 	(label "TS_SCL"
 		(at 111.76 161.29 0)
@@ -5301,36 +5137,6 @@
 		)
 		(uuid "9c2213e6-93b5-48e8-8839-fb609186414c")
 	)
-	(label "LCD_R5"
-		(at 77.47 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fb05325-ec2d-48c2-bbbd-e30d0ed1b7c1")
-	)
-	(label "LCD_B7"
-		(at 113.03 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a347a01a-5740-4ff8-acfb-a6a7574351c3")
-	)
-	(label "LCD_G3"
-		(at 77.47 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a679c177-7932-4a37-bced-7573f6b39050")
-	)
 	(label "LCD_NC"
 		(at 113.03 110.49 0)
 		(effects
@@ -5340,86 +5146,6 @@
 			(justify left bottom)
 		)
 		(uuid "b67ca443-7b61-4582-9b88-83536205fee1")
-	)
-	(label "LCD_R6"
-		(at 77.47 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b916ed16-5101-4e23-a376-3bfe586fdba0")
-	)
-	(label "LCD_G4"
-		(at 77.47 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7be2d9a-1438-4a7f-81f7-bab9606899ba")
-	)
-	(label "LCD_VSYNC"
-		(at 113.03 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9b43eb9-9e12-44ec-add8-2a29c65ffb42")
-	)
-	(label "LCD_G2"
-		(at 77.47 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2d7d73d-609f-4f11-885b-fabf6318563d")
-	)
-	(label "LCD_B0"
-		(at 113.03 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d65412e9-6f80-46ae-bfb7-3fde76915813")
-	)
-	(label "LCD_DISP"
-		(at 113.03 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dada9ae7-0af0-404a-8f0d-562559a07c13")
-	)
-	(label "LCD_G7"
-		(at 77.47 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e183d9b9-e9a2-4335-bb18-1d22a6cffbc6")
-	)
-	(label "LCD_G0"
-		(at 77.47 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eadca18b-8951-45ab-bb45-81e8c7fd2e02")
 	)
 	(label "LCD_NC"
 		(at 113.03 107.95 0)
@@ -5431,16 +5157,6 @@
 		)
 		(uuid "f78e68a7-3596-4bf5-bc7e-a7e4b556c7e4")
 	)
-	(label "LCD_B5"
-		(at 113.03 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd2f7a57-a19c-437d-b61a-a21403d15f14")
-	)
 	(hierarchical_label "ETH_TD+"
 		(shape input)
 		(at 246.38 50.8 180)
@@ -5451,6 +5167,72 @@
 			(justify right)
 		)
 		(uuid "065d4b55-a74a-44c2-8760-17d080b2933f")
+	)
+	(hierarchical_label "LCD_G3"
+		(shape input)
+		(at 77.47 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08203f48-0807-4206-b242-f9bc4f7ccc19")
+	)
+	(hierarchical_label "LCD_R2"
+		(shape input)
+		(at 77.47 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c32fd17-3b4a-4423-851b-77a42b507e83")
+	)
+	(hierarchical_label "LCD_BIST"
+		(shape input)
+		(at 120.65 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1efb0845-a6d0-48a8-a37e-5fe6e2f28dab")
+	)
+	(hierarchical_label "LCD_B4"
+		(shape input)
+		(at 120.65 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21d101c0-c950-43bf-b772-7e2eee8e6857")
+	)
+	(hierarchical_label "LCD_G2"
+		(shape input)
+		(at 77.47 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2447c9d9-073e-45c9-a450-00e950daea86")
+	)
+	(hierarchical_label "LCD_R1"
+		(shape input)
+		(at 77.47 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "261b2e6e-5d37-4986-83f6-ef17139a22e4")
 	)
 	(hierarchical_label "ETH_RD+"
 		(shape input)
@@ -5474,6 +5256,50 @@
 		)
 		(uuid "2e14ac9b-a97d-4332-9747-6de8152ecccd")
 	)
+	(hierarchical_label "LCD_G5"
+		(shape input)
+		(at 77.47 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30518517-ced0-4fd9-9bf1-d17d7e68ac12")
+	)
+	(hierarchical_label "LCD_G1"
+		(shape input)
+		(at 77.47 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33df26da-6472-4e11-afa7-2b705994e975")
+	)
+	(hierarchical_label "LCD_G4"
+		(shape input)
+		(at 77.47 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e4ac80b-06b5-4dff-8624-ef261869396a")
+	)
+	(hierarchical_label "LCD_DEN"
+		(shape input)
+		(at 120.65 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4395047f-99e7-4e9f-a3b6-a402e9852b30")
+	)
 	(hierarchical_label "ETH_GRN_LED"
 		(shape input)
 		(at 351.79 66.04 0)
@@ -5484,6 +5310,72 @@
 			(justify left)
 		)
 		(uuid "43def807-b6fe-405b-a7b6-b4ddef748e1c")
+	)
+	(hierarchical_label "LCD_B0"
+		(shape input)
+		(at 120.65 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ee43727-bd25-4df6-9a25-00e92a88a2a9")
+	)
+	(hierarchical_label "LCD_B6"
+		(shape input)
+		(at 120.65 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f664bb3-dd15-4652-b1b6-a547b2b061fe")
+	)
+	(hierarchical_label "LCD_G6"
+		(shape input)
+		(at 77.47 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "662d0d25-bd96-485f-8a9e-5852d76f97ee")
+	)
+	(hierarchical_label "LCD_R6"
+		(shape input)
+		(at 77.47 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bbf9c61-4967-4204-b316-0bba07c71559")
+	)
+	(hierarchical_label "LCD_R0"
+		(shape input)
+		(at 77.47 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ffac380-7caf-4541-9249-587f5c2c94d9")
+	)
+	(hierarchical_label "LCD_DISP"
+		(shape input)
+		(at 120.65 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71888e64-af5c-4d47-98f0-95b51d487b0b")
 	)
 	(hierarchical_label "ETH_TD-"
 		(shape input)
@@ -5496,6 +5388,61 @@
 		)
 		(uuid "7abb8de0-4c42-457d-9f62-251dbe992000")
 	)
+	(hierarchical_label "LCD_VSYNC"
+		(shape input)
+		(at 120.65 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e395df4-3a40-4b8a-8d49-a658504394a3")
+	)
+	(hierarchical_label "LCD_R7"
+		(shape input)
+		(at 77.47 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9075cd1c-8cd6-41d4-8cb8-3cd8c3775331")
+	)
+	(hierarchical_label "LCD_B2"
+		(shape input)
+		(at 120.65 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d17b27e-dff7-40eb-a7a3-e87f8fbcfd85")
+	)
+	(hierarchical_label "LCD_G0"
+		(shape input)
+		(at 77.47 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "add88363-f268-4abd-bc20-6a19fc33fc84")
+	)
+	(hierarchical_label "LCD_B3"
+		(shape input)
+		(at 120.65 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae8bc2d0-d0ef-49e4-81f8-f794aaba9bbf")
+	)
 	(hierarchical_label "USB_D+"
 		(shape input)
 		(at 331.47 165.1 0)
@@ -5506,6 +5453,39 @@
 			(justify left)
 		)
 		(uuid "b5d5d5ca-6035-4a58-ad32-dab24f21d8d3")
+	)
+	(hierarchical_label "LCD_R5"
+		(shape input)
+		(at 77.47 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be252ffd-399e-4289-a552-958cc60fc445")
+	)
+	(hierarchical_label "LCD_R4"
+		(shape input)
+		(at 77.47 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4983e9f-7b43-4547-b315-3f40d47e75e5")
+	)
+	(hierarchical_label "LCD_G7"
+		(shape input)
+		(at 77.47 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb10a374-bf47-476d-879b-de4585a7efaf")
 	)
 	(hierarchical_label "ETH_RD-"
 		(shape input)
@@ -5528,6 +5508,72 @@
 			(justify left)
 		)
 		(uuid "da9e8431-6624-4dfb-bb97-f48d6ef5980a")
+	)
+	(hierarchical_label "LCD_CLK"
+		(shape input)
+		(at 120.65 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddc124ed-7533-446f-b184-e71c56d7a141")
+	)
+	(hierarchical_label "LCD_B7"
+		(shape input)
+		(at 120.65 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea61e2ce-8c34-4a4b-8c11-b482b600e548")
+	)
+	(hierarchical_label "LCD_B1"
+		(shape input)
+		(at 120.65 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee342b1d-ff09-4270-a1a9-1ada2936c26d")
+	)
+	(hierarchical_label "LCD_R3"
+		(shape input)
+		(at 77.47 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5b0406b-cf0d-41ea-b1ae-0d7e11d78856")
+	)
+	(hierarchical_label "LCD_HSYNC"
+		(shape input)
+		(at 120.65 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5e5d82e-79da-419f-a388-bf1e04de8ee8")
+	)
+	(hierarchical_label "LCD_B5"
+		(shape input)
+		(at 120.65 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc52516c-7a86-448c-9beb-9cfd279c16bf")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -6567,7 +6613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 87.63 0)
+		(at 137.16 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6575,7 +6621,7 @@
 		(dnp no)
 		(uuid "90e243cb-ad53-456e-bda8-5a3044794c62")
 		(property "Reference" "#PWR08"
-			(at 134.62 93.98 0)
+			(at 137.16 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6630,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 91.44 0)
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6592,7 +6638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 87.63 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 87.63 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 87.63 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
