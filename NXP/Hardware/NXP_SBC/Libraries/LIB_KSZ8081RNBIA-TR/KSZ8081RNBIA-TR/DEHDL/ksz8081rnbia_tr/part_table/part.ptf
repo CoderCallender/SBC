@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KSZ8081RNBIA_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "KSZ8081RNBIA-TR" (!) = "", "QFN50P500X500X100-33N-D", "Quad Flat No-Lead", "998-KSZ8081RNBIATR", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/KSZ8081RNBIA-TR?qs=U6T8BxXiZAWQ18bSfvq2UQ%3D%3D", "MICROCHIP - KSZ8081RNBIA-TR - ETHERNET TXRX, 100MBPS, QFN-32", "http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ8081MNX-RNB.pdf", "1 mm"
+END_PART
+
+END.

@@ -608,6 +608,10 @@
     [
       "81dbb7fb-7b83-45a6-930f-5a417c0199b9",
       "Power"
+    ],
+    [
+      "08d6400b-2b16-4d77-9b28-00441a8d50d0",
+      "Ethernet"
     ]
   ],
   "text_variables": {}

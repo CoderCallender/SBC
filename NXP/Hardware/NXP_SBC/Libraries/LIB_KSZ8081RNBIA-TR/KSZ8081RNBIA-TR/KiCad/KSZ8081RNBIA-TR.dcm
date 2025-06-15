@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KSZ8081RNBIA-TR
+D MICROCHIP - KSZ8081RNBIA-TR - ETHERNET TXRX, 100MBPS, QFN-32
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/KSZ8081MNX-RNB.pdf
+$ENDCMP
+#
+#End Doc Library

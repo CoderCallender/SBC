@@ -1976,6 +1976,19 @@
 		)
 		(uuid "308f4be7-523c-4fab-b650-c35974ef8007")
 	)
+	(text "CHECK CURRENT LIMITS FOR ALL SUPPLIES"
+		(exclude_from_sim no)
+		(at 196.596 302.514 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e226e357-5677-4c20-94c2-9c2472f0d06f")
+	)
 	(junction
 		(at 208.28 41.91)
 		(diameter 0)

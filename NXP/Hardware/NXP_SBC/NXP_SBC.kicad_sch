@@ -6,6 +6,48 @@
 	(paper "A1")
 	(lib_symbols)
 	(sheet
+		(at 322.58 105.41)
+		(size 91.44 128.27)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08d6400b-2b16-4d77-9b28-00441a8d50d0")
+		(property "Sheetname" "Ethernet"
+			(at 322.58 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 322.58 234.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 604.52 88.9)
 		(size 109.22 132.08)
 		(exclude_from_sim no)
