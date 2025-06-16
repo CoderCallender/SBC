@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAYA_W276_00B'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "u-blox", "MAYA-W276-00B" (!) = "", "MAYAW27600B", "Other", "377-MAYA-W276-00B", "https://www.mouser.co.uk/ProductDetail/u-blox/MAYA-W276-00B?qs=By6Nw2ByBD2UUDX35rOZMQ%3D%3D", "Multiprotocol Modules IW612, 802.11ax+BT+802.15.4, 1 PCB antenna or ant. pin", "https://content.u-blox.com/sites/default/files/documents/MAYA-W2_DataSheet_UBX-22009721.pdf", "2.12 mm"
+END_PART
+
+END.

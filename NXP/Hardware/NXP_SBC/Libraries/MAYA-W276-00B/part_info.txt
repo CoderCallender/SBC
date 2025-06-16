@@ -1,0 +1,9 @@
+Manufacturer=u-blox
+PartNumber=MAYA-W276-00B
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=86
+Version=2.4
+Released=2024-06-22 07:57:12
+Downloaded=2025-06-16 16:52:55
+3D=Y

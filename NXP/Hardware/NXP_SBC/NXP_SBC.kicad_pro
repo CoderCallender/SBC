@@ -612,6 +612,10 @@
     [
       "08d6400b-2b16-4d77-9b28-00441a8d50d0",
       "Ethernet"
+    ],
+    [
+      "947ee200-c17b-4f36-83aa-57af9c596185",
+      "Radio"
     ]
   ],
   "text_variables": {}

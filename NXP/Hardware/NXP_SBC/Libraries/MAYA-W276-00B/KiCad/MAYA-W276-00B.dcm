@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAYA-W276-00B
+D Multiprotocol Modules IW612, 802.11ax+BT+802.15.4, 1 PCB antenna or ant. pin
+K
+F https://content.u-blox.com/sites/default/files/documents/MAYA-W2_DataSheet_UBX-22009721.pdf
+$ENDCMP
+#
+#End Doc Library

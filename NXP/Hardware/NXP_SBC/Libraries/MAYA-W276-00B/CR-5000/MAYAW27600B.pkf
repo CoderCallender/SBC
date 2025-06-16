@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MAYAW27600B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MAYAW27600B")
+        (spec "default")
+    )
+)
