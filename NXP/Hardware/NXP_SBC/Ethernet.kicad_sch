@@ -2949,6 +2949,19 @@
 		)
 		(uuid "952f14e6-253d-49c8-ae4a-2e159354c7c2")
 	)
+	(text "EVAL HAS RST GOING TO SHIFT REG\nCAN I JUST USE GPIO?"
+		(exclude_from_sim no)
+		(at 163.576 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "f6091822-f617-475c-853b-1846438e9e09")
+	)
 	(junction
 		(at 375.92 120.65)
 		(diameter 0)
@@ -5208,6 +5221,19 @@
 		)
 		(uuid "8c1298b9-3b88-45f1-a276-99aa4658b364")
 	)
+	(hierarchical_label "ETH_CRS_DV"
+		(shape input)
+		(at 252.73 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "950c7d93-3691-4f64-b833-d550d18cdda3")
+	)
 	(hierarchical_label "ETH_TXEN"
 		(shape input)
 		(at 254 181.61 0)
@@ -5399,6 +5425,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V35")
+		(at 58.42 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13ffd8d3-ebeb-456a-9a19-96e8a678ef29")
+		(property "Reference" "#PWR0114"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_3V3"
+			(at 58.42 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f48c3b67-6687-40d0-b9ec-3170c0c0a6be")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 161.29 232.41 270)
 		(unit 1)
@@ -5532,6 +5624,72 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V35")
+		(at 285.75 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18b9b933-c351-444a-8434-a4476c1383f7")
+		(property "Reference" "#PWR0117"
+			(at 285.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_3V3"
+			(at 285.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 285.75 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "592929d0-dd09-4f1a-8080-0afe36fd18c4")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6548,138 +6706,6 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
 					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 72.39 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d4264f1-9aae-46ed-a1c3-57a6ff20f56e")
-		(property "Reference" "#PWR088"
-			(at 72.39 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 72.39 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f41db16-6b0f-4e89-aba9-9db6802edf71")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 199.39 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e1dce14-5b08-4137-bb1f-dc66ba87c474")
-		(property "Reference" "#PWR075"
-			(at 199.39 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 199.39 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 199.39 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95570e71-a3c7-46d7-afdc-1cb6ccea3aec")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -7774,6 +7800,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V35")
+		(at 375.92 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "929798e2-365f-4968-804f-af4a5c7b7d3a")
+		(property "Reference" "#PWR0115"
+			(at 375.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_3V3"
+			(at 375.92 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 375.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1f885f6-c171-452f-8cb1-8b9cbae60d06")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 375.92 132.08 0)
 		(unit 1)
@@ -8114,6 +8206,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V35")
+		(at 72.39 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b43bb35-4112-4756-b76d-c0f92650c52b")
+		(property "Reference" "#PWR0113"
+			(at 72.39 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_3V3"
+			(at 72.39 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 72.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "629c7093-5452-4a71-a848-4bfb3499772e")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 240.03 60.96 90)
 		(unit 1)
@@ -8321,17 +8479,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 375.92 172.72 0)
+		(lib_id "power:+1V35")
+		(at 199.39 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9186f19-c3ca-496d-8a84-f0aa9ad89c16")
-		(property "Reference" "#PWR013"
-			(at 375.92 176.53 0)
+		(uuid "bb44b378-6030-444b-987d-ec3c4684faa0")
+		(property "Reference" "#PWR0110"
+			(at 199.39 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,8 +8497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 375.92 167.64 0)
+		(property "Value" "DCDC_3V3"
+			(at 199.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 375.92 172.72 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 172.72 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,8 +8523,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 375.92 172.72 0)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,12 +8533,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9ab6d43-a356-4905-ad10-d4cab4d3a165")
+			(uuid "4d0b674c-0933-4d18-bb7a-12781fc439fa")
 		)
 		(instances
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
-					(reference "#PWR013")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -8792,72 +8950,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 375.92 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f06cb0bd-100b-4554-8ffd-aa505baf4ec6")
-		(property "Reference" "#PWR080"
-			(at 375.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 375.92 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 375.92 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04335272-800f-4da2-9509-5812fee2f2ae")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 86.36 219.71 180)
 		(unit 1)
@@ -8928,72 +9020,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 58.42 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3ed3990-103c-497b-8d91-f7a625f5bb7d")
-		(property "Reference" "#PWR082"
-			(at 58.42 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 58.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 58.42 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "121d29b7-11b8-4e6e-8447-3e338083ff51")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 158.75 80.01 0)
 		(unit 1)
@@ -9058,6 +9084,72 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V35")
+		(at 375.92 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6263e4e-3f99-4c59-bc06-eef07867ce4b")
+		(property "Reference" "#PWR0116"
+			(at 375.92 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_3V3"
+			(at 375.92 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 375.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 375.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95032473-3471-4e15-9001-1db5621ef3cd")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -9295,72 +9387,6 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 285.75 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb83aff2-ddfd-41ca-b64b-ab45466d6b21")
-		(property "Reference" "#PWR076"
-			(at 285.75 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 285.75 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 285.75 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12ba5c7a-a138-4329-89e7-7952e67028d6")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/08d6400b-2b16-4d77-9b28-00441a8d50d0"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
