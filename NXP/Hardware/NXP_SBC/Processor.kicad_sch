@@ -5955,6 +5955,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -6057,6 +6182,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DOUBLE CHECK PULL UP VOLTAGE"
+		(exclude_from_sim no)
+		(at 748.792 152.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "19dd9319-2f43-45be-bad6-9cd8f47a0023")
+	)
 	(junction
 		(at 195.58 328.93)
 		(diameter 0)
@@ -6094,10 +6232,22 @@
 		(uuid "32b1cc96-ceb7-4bb9-be59-fb580462193a")
 	)
 	(junction
+		(at 718.82 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "338dcb86-38ea-4a7e-b727-3d402c3a30d4")
+	)
+	(junction
 		(at 171.45 384.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e73bc0d-fc17-4061-936a-7d8a5d040c10")
+	)
+	(junction
+		(at 725.17 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58cc7878-6dd7-4d4f-9ba6-9371a61db5c2")
 	)
 	(junction
 		(at 185.42 384.81)
@@ -6849,16 +6999,6 @@
 	)
 	(wire
 		(pts
-			(xy 680.72 181.61) (xy 641.35 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c39991-7ca2-497c-8cc6-e2cfaa2abd60")
-	)
-	(wire
-		(pts
 			(xy 195.58 321.31) (xy 195.58 317.5)
 		)
 		(stroke
@@ -7429,16 +7569,6 @@
 	)
 	(wire
 		(pts
-			(xy 680.72 179.07) (xy 641.35 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a18be94-c9aa-4690-95bf-b9294420c544")
-	)
-	(wire
-		(pts
 			(xy 377.19 387.35) (xy 377.19 391.16)
 		)
 		(stroke
@@ -7789,6 +7919,16 @@
 	)
 	(wire
 		(pts
+			(xy 725.17 168.91) (xy 725.17 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0274caf-88df-4c23-b9d0-9470c7d8b03b")
+	)
+	(wire
+		(pts
 			(xy 364.49 214.63) (xy 383.54 214.63)
 		)
 		(stroke
@@ -7909,6 +8049,16 @@
 	)
 	(wire
 		(pts
+			(xy 718.82 179.07) (xy 731.52 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6ddf92-1fe7-4676-a50d-e4fef8403234")
+	)
+	(wire
+		(pts
 			(xy 364.49 232.41) (xy 383.54 232.41)
 		)
 		(stroke
@@ -7926,6 +8076,16 @@
 			(type default)
 		)
 		(uuid "c33ce292-1044-42a6-a2ce-52b1d0c05136")
+	)
+	(wire
+		(pts
+			(xy 641.35 179.07) (xy 718.82 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46b5b7a-e89d-47d6-954c-9c2e80fe2aa9")
 	)
 	(wire
 		(pts
@@ -8029,6 +8189,16 @@
 	)
 	(wire
 		(pts
+			(xy 718.82 168.91) (xy 718.82 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d502f2e1-9957-4340-b7d0-de2190972e3e")
+	)
+	(wire
+		(pts
 			(xy 295.91 149.86) (xy 312.42 149.86)
 		)
 		(stroke
@@ -8096,6 +8266,16 @@
 			(type default)
 		)
 		(uuid "ddfe9e11-19ad-438b-9845-331edaa7e6e1")
+	)
+	(wire
+		(pts
+			(xy 641.35 181.61) (xy 725.17 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03fe97e-406a-4c36-a1f2-6320d5905d65")
 	)
 	(wire
 		(pts
@@ -8216,6 +8396,16 @@
 			(type default)
 		)
 		(uuid "eb2d8cd2-1d37-491d-8158-75dd7132f128")
+	)
+	(wire
+		(pts
+			(xy 725.17 181.61) (xy 731.52 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0d840d-401c-4181-b411-b2f705222c75")
 	)
 	(wire
 		(pts
@@ -8407,16 +8597,6 @@
 		)
 		(uuid "37cee75f-1e8b-4538-9e9d-25d98de9ff9c")
 	)
-	(label "uP_UART4_TX_DATA"
-		(at 680.72 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46408dee-7aac-4d15-a6b1-1ee4b7ce6fc2")
-	)
 	(label "uP_NVCC_UART"
 		(at 680.72 133.35 180)
 		(effects
@@ -8476,16 +8656,6 @@
 			(justify right bottom)
 		)
 		(uuid "70b842eb-c616-4094-b41b-fdaba72b9901")
-	)
-	(label "uP_UART4_RX_DATA"
-		(at 680.72 181.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73b83df4-633a-46cb-8e45-6c546753c5f1")
 	)
 	(label "uP_JTAG_TRST_B"
 		(at 680.72 116.84 180)
@@ -8770,6 +8940,17 @@
 			(justify right)
 		)
 		(uuid "21b81e72-5f0b-4d80-87d9-a5642cdfdf01")
+	)
+	(hierarchical_label "uP_I2C_SCL"
+		(shape input)
+		(at 731.52 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21d9e17d-44e9-4fb6-b5d2-378a504d8ae1")
 	)
 	(hierarchical_label "DRAM_CS0_B"
 		(shape input)
@@ -9276,6 +9457,17 @@
 			(justify right)
 		)
 		(uuid "9ae2e564-fb0b-475c-9205-c819fca5f18d")
+	)
+	(hierarchical_label "uP_I2C_SDA"
+		(shape input)
+		(at 731.52 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b402e99-4aef-43be-a874-2fb3dcb2b9a0")
 	)
 	(hierarchical_label "uP_GPIO1_IO00"
 		(shape input)
@@ -14152,6 +14344,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 718.82 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56dec2d8-43a9-4709-9f1d-496f3b7f27f8")
+		(property "Reference" "R75"
+			(at 715.518 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 715.518 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 718.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 718.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 718.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c03cef00-ded3-400a-8509-a7aaf7432981")
+		)
+		(pin "1"
+			(uuid "24d032d1-dc06-492a-a506-4bc26e8ffaec")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 92.71 349.25 0)
 		(unit 1)
@@ -14216,6 +14475,72 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 725.17 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59cf7532-51f0-460d-b3f1-e79ac55e81c8")
+		(property "Reference" "#PWR013"
+			(at 725.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 725.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 725.17 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 725.17 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 725.17 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a9ef6fb-f500-4368-817f-7312062601d9")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -21255,6 +21580,73 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 725.17 166.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3762a2e-c834-4396-9a19-dd26130a543d")
+		(property "Reference" "R76"
+			(at 728.218 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 728.218 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 725.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 725.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 725.17 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "127277ee-4a00-4031-aedf-090f7927ae01")
+		)
+		(pin "1"
+			(uuid "44d9ff6b-a71d-476e-a876-e0886e9d2ea2")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
+					(reference "R76")
 					(unit 1)
 				)
 			)
