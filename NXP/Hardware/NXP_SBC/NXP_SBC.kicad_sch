@@ -123,6 +123,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 140.97) (xy 511.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc8fb78-ce5a-40c6-932a-6b35d46da90b")
+	)
+	(wire
+		(pts
 			(xy 355.6 204.47) (xy 386.08 204.47)
 		)
 		(stroke
@@ -383,6 +393,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 260.35) (xy 511.81 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75617bfb-ed5a-414f-abc7-e717ef091842")
+	)
+	(wire
+		(pts
 			(xy 495.3 201.93) (xy 511.81 201.93)
 		)
 		(stroke
@@ -450,6 +470,16 @@
 			(type default)
 		)
 		(uuid "7b8974e9-5d86-4079-85af-9208625d2e21")
+	)
+	(wire
+		(pts
+			(xy 495.3 228.6) (xy 511.81 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e56da29-ce55-447e-8e1c-1fad941b570f")
 	)
 	(wire
 		(pts
@@ -660,6 +690,16 @@
 			(type default)
 		)
 		(uuid "9c82637c-ba14-486d-a3c9-dba3c8384630")
+	)
+	(wire
+		(pts
+			(xy 495.3 236.22) (xy 511.81 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce76288-91f0-4049-aa60-f40b36867efe")
 	)
 	(wire
 		(pts
@@ -1020,6 +1060,16 @@
 			(type default)
 		)
 		(uuid "f27fc3f6-54f1-4a8a-a102-6c0b3f74ac88")
+	)
+	(wire
+		(pts
+			(xy 495.3 257.81) (xy 511.81 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8342451-18a5-45df-956d-305fc03dbf33")
 	)
 	(wire
 		(pts
@@ -1738,7 +1788,7 @@
 			)
 		)
 		(pin "LCD_RESET" input
-			(at 495.3 138.43 0)
+			(at 472.44 135.89 90)
 			(uuid "34f6fb2f-e846-4e63-80d0-a6702135814e")
 			(effects
 				(font
@@ -2317,6 +2367,56 @@
 				(justify right)
 			)
 		)
+		(pin "uP_USB_OTG1_DN" input
+			(at 495.3 260.35 0)
+			(uuid "6fa05fac-b252-4d17-8b00-682e94aa7d1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_USB_OTG1_DP" input
+			(at 495.3 257.81 0)
+			(uuid "37f7bcf1-78ca-48ae-bfbd-c67e114b623d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_LCD_DISP" input
+			(at 495.3 140.97 0)
+			(uuid "21d5da46-163a-44d7-acfc-d711db90638a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_TS_INT" input
+			(at 495.3 228.6 0)
+			(uuid "9c201d2c-c84a-4ee5-8c46-ba971de9f155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_TS_RESET" input
+			(at 495.3 236.22 0)
+			(uuid "48baf186-6be8-41d4-b5d3-6b3e55e7561d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498"
@@ -2439,16 +2539,6 @@
 				(justify left)
 			)
 		)
-		(pin "LCD_BIST" input
-			(at 511.81 154.94 180)
-			(uuid "c99ca7c0-3f92-4b56-b7dc-3b55f07382d2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCD_CLK" input
 			(at 511.81 151.13 180)
 			(uuid "b5afe4df-071b-4646-8e6e-7d2e16a7cd5a")
@@ -2470,7 +2560,7 @@
 			)
 		)
 		(pin "LCD_DISP" input
-			(at 511.81 138.43 180)
+			(at 511.81 140.97 180)
 			(uuid "8c89456c-9d9a-4bdd-a846-13495ec08d64")
 			(effects
 				(font
