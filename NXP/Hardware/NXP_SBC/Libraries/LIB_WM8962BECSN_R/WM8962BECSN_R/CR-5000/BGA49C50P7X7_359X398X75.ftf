@@ -1,0 +1,879 @@
+(ftf
+  (header
+    (version 2.0)
+    (unit DBUNIT)
+  )
+  (TechnologyContainer
+    (technology SamacSys_Footprint
+      (footprintLayer
+        (layer Top (type Conductive))
+        (layer Inner (type Conductive))
+        (layer Bottom (type Conductive))
+        (layer Silk-Top (type Symbolmark))
+        (layer Silk-Bottom (type Symbolmark))
+        (layer Resist-Top (type Solderresist))
+        (layer Resist-Bottom (type Solderresist))
+        (layer MetalMask-Top (type Metalmask))
+        (layer MetalMask-Bottom (type Metalmask))
+        (layer CompArea-Top (type Comparea))
+        (layer CompArea-Bottom (type Comparea))
+        (layer Assembly-Top (type Undefined))
+        (layer Assembly-Bottom (type Undefined))
+        (layer Hole (type Hole))
+      )
+    )
+  )
+  (footprintContainer
+    (commonParameters
+      (dimensionParameters
+        (arrowLength 100000)
+        (arrowAngle 15.000000)
+        (dotDiameter 100000)
+        (textFrameOffset 100000)
+        (arrowOffset 100000)
+        (dimAssistOffset 100000)
+        (dimLineWidth 10000)
+        (drawTextFrame NO)
+        (textFrameRange ALL)
+        (textClip NO)
+        (standard JIS)
+      )
+    )
+    (padstackGroups
+      (padstackGroup default)
+    )
+    (pads
+      (pad c30.1
+        (photo FLASH)
+        (panelUse NO)
+        (geometry
+          (circle 15050
+            (pt 0 0)
+          )
+        )
+      )
+    ); End of pads
+    (padstacks
+      (padstack c30.1
+        (type NONPLATED)
+        (throughMode NONTHROUGH)
+        (panelUse NO)
+        (padSet (footLayer Top)
+          (connect (pad c30.1))
+          (noconnect (pad c30.1))
+        )
+        (padSet (footLayer Resist-Top)
+          (connect (pad c30.1))
+          (noconnect (pad c30.1))
+        )
+        (padSet (footLayer MetalMask-Top)
+          (connect (pad c30.1))
+          (noconnect (pad c30.1))
+        )
+      )
+    ); End of padstacks
+    (footprints
+      (footprint "BGA49C50P7X7_359X398X75"
+        (polarity YES)
+        (panelUse NO)
+        (heelprint
+          (layout
+            (layer (footLayer CompArea-Top)
+              (area
+                (geometry
+                  (surface
+                    (outlineWidth 0)
+                    (fillWidth 0)
+                    (fillAngle 0.000000)
+                    (vertex
+                    (pt 281200 300700)
+                    (pt 281200 -300700)
+                    (pt -281200 -300700)
+                    (pt -281200 300700)
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Assembly-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -179700 199200
+                        (width 10000)
+                      )
+                      (pt 179700 199200
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Assembly-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 179700 199200
+                        (width 10000)
+                      )
+                      (pt 179700 -199200
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Assembly-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 179700 -199200
+                        (width 10000)
+                      )
+                      (pt -179700 -199200
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Assembly-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -179700 -199200
+                        (width 10000)
+                      )
+                      (pt -179700 199200
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Assembly-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -179700 98800
+                        (width 10000)
+                      )
+                      (pt -79300 199200
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -150000 200100
+                        (width 20000)
+                      )
+                      (pt 200100 200100
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 200100 200100
+                        (width 20000)
+                      )
+                      (pt 200100 -200000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 200100 -200000
+                        (width 20000)
+                      )
+                      (pt -200000 -200000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -200000 -200000
+                        (width 20000)
+                      )
+                      (pt -200000 150100
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -200000 150100
+                        (width 20000)
+                      )
+                      (pt -149900 200200
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (arc CW
+                        (r 10000)
+                        (begin
+                          (pt -200100 210100
+                            (width 20000)
+                          )
+                        )
+                        (center 0 0)
+                        (end
+                          (pt -200100 210100
+                            (width 20000)
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+           ); End of layout
+         ); End of heelprint
+         (toeprint
+          (pin A1
+            (pt -150000 150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -150000 150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin A2
+            (pt -100000 150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -100000 150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin A3
+            (pt -50000 150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -50000 150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin A4
+            (pt 0 150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin A5
+            (pt 50000 150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 50000 150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin A6
+            (pt 100000 150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 100000 150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin A7
+            (pt 150000 150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 150000 150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin B1
+            (pt -150000 100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -150000 100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin B2
+            (pt -100000 100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -100000 100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin B3
+            (pt -50000 100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -50000 100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin B4
+            (pt 0 100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin B5
+            (pt 50000 100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 50000 100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin B6
+            (pt 100000 100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 100000 100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin B7
+            (pt 150000 100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 150000 100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin C1
+            (pt -150000 50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -150000 50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin C2
+            (pt -100000 50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -100000 50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin C3
+            (pt -50000 50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -50000 50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin C4
+            (pt 0 50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin C5
+            (pt 50000 50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 50000 50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin C6
+            (pt 100000 50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 100000 50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin C7
+            (pt 150000 50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 150000 50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin D1
+            (pt -150000 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -150000 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin D2
+            (pt -100000 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -100000 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin D3
+            (pt -50000 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -50000 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin D4
+            (pt 0 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin D5
+            (pt 50000 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 50000 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin D6
+            (pt 100000 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 100000 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin D7
+            (pt 150000 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 150000 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin E1
+            (pt -150000 -50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -150000 -50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin E2
+            (pt -100000 -50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -100000 -50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin E3
+            (pt -50000 -50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -50000 -50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin E4
+            (pt 0 -50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 -50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin E5
+            (pt 50000 -50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 50000 -50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin E6
+            (pt 100000 -50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 100000 -50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin E7
+            (pt 150000 -50000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 150000 -50000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin F1
+            (pt -150000 -100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -150000 -100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin F2
+            (pt -100000 -100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -100000 -100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin F3
+            (pt -50000 -100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -50000 -100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin F4
+            (pt 0 -100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 -100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin F5
+            (pt 50000 -100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 50000 -100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin F6
+            (pt 100000 -100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 100000 -100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin F7
+            (pt 150000 -100000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 150000 -100000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin G1
+            (pt -150000 -150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -150000 -150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin G2
+            (pt -100000 -150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -100000 -150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin G3
+            (pt -50000 -150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -50000 -150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin G4
+            (pt 0 -150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 -150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin G5
+            (pt 50000 -150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 50000 -150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin G6
+            (pt 100000 -150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 100000 -150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+          (pin G7
+            (pt 150000 -150000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 150000 -150000)
+                  (angle 90)
+                  (padstackGroup default (padstack c30.1))
+                )
+              )
+            )
+          )
+        ); End of toeprint
+        (propertyS accurateShape WM8962BECSN_R.stp)
+      ); End of footprint
+    ); End of footprints
+  );  End of footprintContainer
+); End of ftf
+

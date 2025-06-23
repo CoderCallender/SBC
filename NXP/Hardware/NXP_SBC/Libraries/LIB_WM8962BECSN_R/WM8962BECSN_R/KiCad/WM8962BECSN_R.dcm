@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP WM8962BECSN_R
+D Interface - CODECs Stereo CODEC with Audio Enhancement
+K
+F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/WM8962B_v4.2.pdf
+$ENDCMP
+#
+#End Doc Library

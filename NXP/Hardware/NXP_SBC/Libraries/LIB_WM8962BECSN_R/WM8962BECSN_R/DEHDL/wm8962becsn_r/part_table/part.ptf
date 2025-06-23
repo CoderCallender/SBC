@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'WM8962BECSN_R'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Cirrus Logic", "WM8962BECSN/R" (!) = "", "BGA49C50P7X7_359X398X75", "BGA", "238-WM8962BECSN/R", "https://www.mouser.co.uk/ProductDetail/Cirrus-Logic/WM8962BECSN-R?qs=3kEcuH7qFheYlZ%252BQusC%2FLw%3D%3D", "Interface - CODECs Stereo CODEC with Audio Enhancement", "https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/WM8962B_v4.2.pdf", "0.75 mm"
+END_PART
+
+END.

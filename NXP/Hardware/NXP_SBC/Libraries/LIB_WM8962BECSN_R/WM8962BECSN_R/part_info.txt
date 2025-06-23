@@ -1,0 +1,9 @@
+Manufacturer=Cirrus Logic
+PartNumber=WM8962BECSN/R
+PartCategory=Integrated Circuit
+PackageCategory=BGA
+PinCount=49
+Version=3.1
+Released=2019-02-11 03:45:50
+Downloaded=2025-06-23 08:34:46
+3D=Y
