@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding= "UTF-8" ?>
+<configuration name="MCIMX6Y2xxx09" xsi:schemaLocation="http://mcuxpresso.nxp.com/XSD/mex_configuration_18 http://mcuxpresso.nxp.com/XSD/mex_configuration_18.xsd" uuid="45d15e9b-71ad-4117-8cc1-eb28816f071c" version="18" xmlns="http://mcuxpresso.nxp.com/XSD/mex_configuration_18" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <common>
+      <processor>MCIMX6Y2xxx09</processor>
+      <package>MCIMX6Y2DVM09</package>
+      <mcu_data>i_mx_2_0</mcu_data>
+      <cores selected="ca7">
+         <core name="Cortex-A7" id="ca7" description="A7 core"/>
+      </cores>
+      <description></description>
+   </common>
+   <preferences>
+      <validate_boot_init_only>true</validate_boot_init_only>
+      <generate_code_modified_registers_only>false</generate_code_modified_registers_only>
+      <update_include_paths>true</update_include_paths>
+      <enable_parallel_routing>true</enable_parallel_routing>
+      <generate_registers_defines>false</generate_registers_defines>
+   </preferences>
+   <tools>
+      <pins name="Pins" version="17.0" enabled="true" update_project_code="true">
+         <pins_profile>
+            <processor_version>25.06.0</processor_version>
+            <power_domains>
+               <power_domain name="NVCC_CSI" value="3.3"/>
+            </power_domains>
+         </pins_profile>
+         <functions_list>
+            <function name="BOARD_InitPins">
+               <description>Configures pin routing and optionally pin electrical features.</description>
+               <options>
+                  <callFromInitBoot>false</callFromInitBoot>
+                  <coreID>ca7</coreID>
+               </options>
+               <dependencies/>
+               <pins>
+                  <pin peripheral="UART1" signal="uart_rx" pin_num="K14" pin_signal="UART1_TX_DATA"/>
+                  <pin peripheral="I2C1" signal="i2c_scl" pin_num="G17" pin_signal="UART4_TX_DATA"/>
+                  <pin peripheral="I2C1" signal="i2c_sda" pin_num="G16" pin_signal="UART4_RX_DATA"/>
+                  <pin peripheral="SAI2" signal="sai_mclk" pin_num="P14" pin_signal="JTAG_TMS"/>
+                  <pin peripheral="SAI2" signal="sai_rx_data" pin_num="M14" pin_signal="JTAG_TCK"/>
+                  <pin peripheral="SAI2" signal="sai_rx_sync" pin_num="C2" pin_signal="SD1_CMD"/>
+                  <pin peripheral="SAI2" signal="sai_tx_bclk" pin_num="N16" pin_signal="JTAG_TDI"/>
+                  <pin peripheral="SAI2" signal="sai_tx_data" pin_num="N14" pin_signal="JTAG_TRST_B"/>
+                  <pin peripheral="SAI2" signal="sai_tx_sync" pin_num="N15" pin_signal="JTAG_TDO"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_clk" pin_num="D8" pin_signal="NAND_RE_B"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_cmd" pin_num="C8" pin_signal="NAND_WE_B"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 0" pin_num="D7" pin_signal="NAND_DATA00"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 1" pin_num="B7" pin_signal="NAND_DATA01"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 2" pin_num="A7" pin_signal="NAND_DATA02"/>
+                  <pin peripheral="uSDHC2" signal="usdhc_data, 3" pin_num="D6" pin_signal="NAND_DATA03"/>
+                  <pin peripheral="SAI1" signal="sai_mclk" pin_num="E3" pin_signal="CSI_DATA01"/>
+                  <pin peripheral="SAI1" signal="sai_rx_bclk" pin_num="E1" pin_signal="CSI_DATA03"/>
+                  <pin peripheral="SAI1" signal="sai_rx_data" pin_num="D2" pin_signal="CSI_DATA06"/>
+                  <pin peripheral="SAI1" signal="sai_rx_sync" pin_num="E2" pin_signal="CSI_DATA02"/>
+                  <pin peripheral="SAI1" signal="sai_tx_bclk" pin_num="D3" pin_signal="CSI_DATA05"/>
+                  <pin peripheral="SAI1" signal="sai_tx_data" pin_num="D1" pin_signal="CSI_DATA07"/>
+                  <pin peripheral="SAI1" signal="sai_tx_sync" pin_num="D4" pin_signal="CSI_DATA04"/>
+                  <pin peripheral="GPIO4" signal="gpio_io, 6" pin_num="C6" pin_signal="NAND_DATA04"/>
+                  <pin peripheral="GPIO4" signal="gpio_io, 7" pin_num="B6" pin_signal="NAND_DATA05"/>
+                  <pin peripheral="GPIO4" signal="gpio_io, 8" pin_num="A6" pin_signal="NAND_DATA06"/>
+                  <pin peripheral="GPIO4" signal="gpio_io, 9" pin_num="A5" pin_signal="NAND_DATA07"/>
+               </pins>
+            </function>
+         </functions_list>
+      </pins>
+      <clocks name="Clocks" version="17.0" enabled="false" update_project_code="true">
+         <clocks_profile>
+            <processor_version>N/A</processor_version>
+         </clocks_profile>
+         <clock_configurations/>
+      </clocks>
+      <ddr name="DDR" version="1.0" enabled="false" update_project_code="true">
+         <components/>
+      </ddr>
+      <periphs name="Peripherals" version="15.0" enabled="false" update_project_code="true">
+         <peripherals_profile>
+            <processor_version>N/A</processor_version>
+         </peripherals_profile>
+         <functional_groups/>
+         <components/>
+      </periphs>
+      <tee name="TEE" version="9.0" enabled="false" update_project_code="true">
+         <tee_profile>
+            <processor_version>N/A</processor_version>
+         </tee_profile>
+      </tee>
+      <serdes name="SERDES" version="1.0" enabled="false" update_project_code="true">
+         <components/>
+      </serdes>
+   </tools>
+</configuration>
