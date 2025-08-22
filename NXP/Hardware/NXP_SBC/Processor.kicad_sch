@@ -6909,6 +6909,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 490.22) (xy 177.8 490.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233e0cb2-c190-461c-a562-5ae6c8fa8d09")
+	)
+	(wire
+		(pts
 			(xy 549.91 146.05) (xy 567.69 146.05)
 		)
 		(stroke
@@ -7969,6 +7979,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 502.92) (xy 177.8 502.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "883b4075-c36f-4de1-838d-b8ccaa1af368")
+	)
+	(wire
+		(pts
 			(xy 680.72 156.21) (xy 641.35 156.21)
 		)
 		(stroke
@@ -8739,6 +8759,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 500.38) (xy 177.8 500.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7a30be-95c9-425a-8240-c930d11e3a48")
+	)
+	(wire
+		(pts
 			(xy 295.91 109.22) (xy 312.42 109.22)
 		)
 		(stroke
@@ -8996,6 +9026,16 @@
 			(type default)
 		)
 		(uuid "f0a6b48d-28b5-4fe6-add1-c75d0dbec1d9")
+	)
+	(wire
+		(pts
+			(xy 154.94 492.76) (xy 177.8 492.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ffa42e-9c65-4685-a4f7-82d30866366a")
 	)
 	(wire
 		(pts
@@ -9377,7 +9417,7 @@
 		)
 		(uuid "18c0097b-a38d-41fe-a630-695a942882cb")
 	)
-	(hierarchical_label "RADIO_SD_DATA1"
+	(hierarchical_label "uP_SD2_DATA1"
 		(shape input)
 		(at 177.8 516.89 0)
 		(effects
@@ -9443,6 +9483,17 @@
 		)
 		(uuid "1d423747-23e0-4523-908c-481c6c773870")
 	)
+	(hierarchical_label "uP_GPIO4_IO10"
+		(shape input)
+		(at 177.8 490.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f3bb6a8-b4f4-4ea8-8744-3f4459b20130")
+	)
 	(hierarchical_label "uP_ENET1_RX_DATA0"
 		(shape input)
 		(at 312.42 114.3 0)
@@ -9498,7 +9549,7 @@
 		)
 		(uuid "2dba677a-3b54-4048-b1a1-a4fab6a03a6e")
 	)
-	(hierarchical_label "RADIO_SD_DATA2"
+	(hierarchical_label "uP_SD2_DATA2"
 		(shape input)
 		(at 177.8 519.43 0)
 		(effects
@@ -9717,6 +9768,17 @@
 			(justify left)
 		)
 		(uuid "4b850c5c-0e97-4333-a1a3-326b815feda3")
+	)
+	(hierarchical_label "uP_GPIO4_IO11"
+		(shape input)
+		(at 177.8 500.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4eb7b098-59c0-46e6-902e-03b6f8805e86")
 	)
 	(hierarchical_label "DRAM_SDQSO_N"
 		(shape input)
@@ -10092,7 +10154,7 @@
 		)
 		(uuid "8ae376ff-0da4-4ef8-aa96-adc377e7468b")
 	)
-	(hierarchical_label "RADIO_SD_DATA3"
+	(hierarchical_label "uP_SD2_DATA3"
 		(shape input)
 		(at 177.8 521.97 0)
 		(effects
@@ -10114,7 +10176,7 @@
 		)
 		(uuid "8bef1e3f-c5ee-4855-acbf-b7388fea9849")
 	)
-	(hierarchical_label "RADIO_SD_CLK"
+	(hierarchical_label "uP_SD2_CLK"
 		(shape input)
 		(at 177.8 495.3 0)
 		(effects
@@ -10664,6 +10726,17 @@
 		)
 		(uuid "ccfb8812-a3c5-413e-a350-d1257b08a2ef")
 	)
+	(hierarchical_label "uP_GPIO4_IO12"
+		(shape input)
+		(at 177.8 502.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd1ef8eb-0265-4533-8cf0-5f53ec964821")
+	)
 	(hierarchical_label "uP_SD1_DATA3"
 		(shape input)
 		(at 464.82 284.48 0)
@@ -10741,6 +10814,17 @@
 		)
 		(uuid "dd1e0c25-4ba1-4215-b7e4-a67ddc8e66e0")
 	)
+	(hierarchical_label "uP_GPIO4_IO15"
+		(shape input)
+		(at 177.8 492.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de250f85-d132-44d4-84ed-cf9084cd77ad")
+	)
 	(hierarchical_label "DRAM_CS1_B"
 		(shape input)
 		(at 71.12 295.91 180)
@@ -10807,7 +10891,7 @@
 		)
 		(uuid "ef43e7a0-6b87-427b-b908-c2685c60e5f7")
 	)
-	(hierarchical_label "RADIO_SD_CMD"
+	(hierarchical_label "uP_SD2_CMD"
 		(shape input)
 		(at 177.8 497.84 0)
 		(effects
@@ -10851,7 +10935,7 @@
 		)
 		(uuid "f23dd838-3a9c-409c-a9a1-a215ac162b10")
 	)
-	(hierarchical_label "RADIO_SD_DATA0"
+	(hierarchical_label "uP_SD2_DATA0"
 		(shape input)
 		(at 177.8 514.35 0)
 		(effects

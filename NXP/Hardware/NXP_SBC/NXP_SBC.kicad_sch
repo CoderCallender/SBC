@@ -5,6 +5,18 @@
 	(uuid "e82fc437-413b-4185-b609-66f66e24e498")
 	(paper "A1")
 	(lib_symbols)
+	(junction
+		(at 454.66 464.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ae24c6e-900c-4e28-86bc-c55b2e67b2ce")
+	)
+	(junction
+		(at 458.47 464.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5df59d8-5913-4677-8a56-50fc9f4c122e")
+	)
 	(no_connect
 		(at 381 320.04)
 		(uuid "64ed52c7-b733-4d53-abdb-679dfdbd0c67")
@@ -93,6 +105,16 @@
 	)
 	(wire
 		(pts
+			(xy 466.09 464.82) (xy 458.47 464.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b759c7e-0530-4081-b012-517e703d0470")
+	)
+	(wire
+		(pts
 			(xy 355.6 250.19) (xy 386.08 250.19)
 		)
 		(stroke
@@ -123,6 +145,16 @@
 	)
 	(wire
 		(pts
+			(xy 454.66 464.82) (xy 452.12 464.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d8adcd-2f41-4e34-8e8b-8ce0b67ef45a")
+	)
+	(wire
+		(pts
 			(xy 495.3 351.79) (xy 515.62 351.79)
 		)
 		(stroke
@@ -130,6 +162,16 @@
 			(type default)
 		)
 		(uuid "14f6a41e-9c23-4340-a749-06668bad2fff")
+	)
+	(wire
+		(pts
+			(xy 495.3 440.69) (xy 515.62 440.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1609c270-335e-4c2e-8c18-588f57172bb2")
 	)
 	(wire
 		(pts
@@ -243,6 +285,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 447.04) (xy 515.62 447.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3110d847-8fa8-4ee6-bb12-6243e896d53b")
+	)
+	(wire
+		(pts
 			(xy 495.3 191.77) (xy 511.81 191.77)
 		)
 		(stroke
@@ -283,6 +335,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 435.61) (xy 515.62 435.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4227c46d-6beb-4c27-be2a-50fbf7746225")
+	)
+	(wire
+		(pts
 			(xy 495.3 321.31) (xy 513.08 321.31)
 		)
 		(stroke
@@ -320,6 +382,16 @@
 			(type default)
 		)
 		(uuid "4c1030e9-52c1-4bdf-9f06-b9c2595b52fb")
+	)
+	(wire
+		(pts
+			(xy 454.66 464.82) (xy 458.47 464.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8da36b-5749-43c5-8316-1b773d107e5e")
 	)
 	(wire
 		(pts
@@ -600,6 +672,16 @@
 			(type default)
 		)
 		(uuid "7e56da29-ce55-447e-8e1c-1fad941b570f")
+	)
+	(wire
+		(pts
+			(xy 495.3 438.15) (xy 515.62 438.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea747ae-22e5-45ea-8fdb-4d36a3507034")
 	)
 	(wire
 		(pts
@@ -2767,68 +2849,8 @@
 				(justify right)
 			)
 		)
-		(pin "RADIO_SD_CLK" input
-			(at 495.3 351.79 0)
-			(uuid "fbe19ee7-99a6-420c-ad0f-b84e826ee6a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RADIO_SD_CMD" input
-			(at 495.3 354.33 0)
-			(uuid "e3697768-4c07-45c2-9203-e771433fec9a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RADIO_SD_DATA0" input
-			(at 495.3 356.87 0)
-			(uuid "14628da9-44a9-429a-af5b-172ce2c5f2e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RADIO_SD_DATA1" input
-			(at 495.3 359.41 0)
-			(uuid "fe6b280b-c833-4b5a-84a0-a1c39ec8b5a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RADIO_SD_DATA2" input
-			(at 495.3 361.95 0)
-			(uuid "7c3776f6-a8d1-4015-b671-58eda36f891b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RADIO_SD_DATA3" input
-			(at 495.3 364.49 0)
-			(uuid "ef7a05ac-512d-4bb9-85c1-86f4d9146885")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "uP_UART1_RX_DATA" input
-			(at 457.2 464.82 270)
+			(at 466.09 464.82 270)
 			(uuid "83999b1a-815d-4157-907a-5c3f484ef480")
 			(effects
 				(font
@@ -2838,7 +2860,7 @@
 			)
 		)
 		(pin "uP_UART1_RTS_B" input
-			(at 457.2 464.82 270)
+			(at 458.47 464.82 270)
 			(uuid "be0cdc5c-9080-4788-ba99-199c8966579b")
 			(effects
 				(font
@@ -2848,7 +2870,7 @@
 			)
 		)
 		(pin "uP_UART1_TX_DATA" input
-			(at 457.2 464.82 270)
+			(at 452.12 464.82 270)
 			(uuid "a1644a30-58a5-4cf4-9a94-90bcf229f2b0")
 			(effects
 				(font
@@ -2858,53 +2880,13 @@
 			)
 		)
 		(pin "uP_UART1_CTS_B" input
-			(at 457.2 464.82 270)
+			(at 454.66 464.82 270)
 			(uuid "03079841-ad1c-4efe-b451-15719ca65004")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "uP_GPIO4_IO0" input
-			(at 495.3 397.51 0)
-			(uuid "b4d2197f-1d04-4695-afe3-a9fe99c42308")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "uP_GPIO4_IO2" input
-			(at 495.3 402.59 0)
-			(uuid "81e00584-1a48-436f-a9c9-0bf13283bfa4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "uP_GPIO4_IO3" input
-			(at 495.3 405.13 0)
-			(uuid "1753b525-01db-4745-befb-d7d8fca05e94")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "uP_GPIO4_IO1" input
-			(at 495.3 400.05 0)
-			(uuid "6976013f-b673-41ad-be94-07bfb0f23e30")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "uP_UART2_TX_DATA" input
@@ -2990,6 +2972,146 @@
 		(pin "uP_SAI1_TX_DATA" input
 			(at 495.3 416.56 0)
 			(uuid "a96472d1-5dc0-4cdd-b184-9823ee1ccde0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_GPIO4_IO7" input
+			(at 495.3 397.51 0)
+			(uuid "f363e9e0-3971-4c5b-a5da-23ebc2422d86")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_GPIO4_IO6" input
+			(at 495.3 400.05 0)
+			(uuid "d8ea5826-949c-4391-870e-a455154090f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_GPIO4_IO8" input
+			(at 495.3 402.59 0)
+			(uuid "3f393153-1760-4f4a-a0b5-1a96b9fe9576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_GPIO4_IO9" input
+			(at 495.3 405.13 0)
+			(uuid "41d485fa-37df-4328-8b94-73d9d3e7609a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_GPIO4_IO12" input
+			(at 495.3 440.69 0)
+			(uuid "2fde5b65-6791-44f5-bca4-507608356a36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_GPIO4_IO10" input
+			(at 495.3 435.61 0)
+			(uuid "af7b3dea-7664-44c2-bb4f-0b02b4cd2a70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_GPIO4_IO15" input
+			(at 495.3 447.04 0)
+			(uuid "2fa14bbb-54db-4277-b11b-405a8b6f563e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_GPIO4_IO11" input
+			(at 495.3 438.15 0)
+			(uuid "1c574915-9646-4f0b-bbb6-7214a43a1afd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_SD2_DATA1" input
+			(at 495.3 359.41 0)
+			(uuid "3cec2866-794e-48b3-9bbd-3f6233c880a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_SD2_DATA2" input
+			(at 495.3 361.95 0)
+			(uuid "81f052d0-9cb6-4475-8302-4d99b44d95cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_SD2_DATA3" input
+			(at 495.3 364.49 0)
+			(uuid "9da4cdc2-e41d-407e-88c3-67ade3300202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_SD2_CLK" input
+			(at 495.3 351.79 0)
+			(uuid "b2129fa0-5da6-4ea7-9222-ccc3a2b7b343")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_SD2_CMD" input
+			(at 495.3 354.33 0)
+			(uuid "8e6092d0-02ae-480e-9b60-cd8be4d9102b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uP_SD2_DATA0" input
+			(at 495.3 356.87 0)
+			(uuid "3185f3b7-b714-4779-ab6a-c36b48cf037d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,36 +3605,6 @@
 				(justify left)
 			)
 		)
-		(pin "RADIO_JTAG_TDI" input
-			(at 553.72 463.55 270)
-			(uuid "1c77cfa4-3f4c-4290-b387-53e0e53b3800")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RADIO_JTAG_TDO" input
-			(at 556.26 463.55 270)
-			(uuid "ed719b7a-a8d5-41c6-9f61-0be4877e9dfb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RADIO_JTAG_TMS" input
-			(at 558.8 463.55 270)
-			(uuid "f89268f7-b511-4b50-b0b2-262366d17ff5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RADIO_PCM_CLK" input
 			(at 515.62 414.02 180)
 			(uuid "b96fe727-8bae-4573-b520-ee5edc372f03")
@@ -3564,7 +3656,7 @@
 			)
 		)
 		(pin "RADIO_PDN" input
-			(at 574.04 463.55 270)
+			(at 515.62 447.04 180)
 			(uuid "e41f5ee3-71b4-4ccb-8cfa-4e447034772e")
 			(effects
 				(font
@@ -3573,58 +3665,8 @@
 				(justify left)
 			)
 		)
-		(pin "RADIO_RF_ANT0" input
-			(at 576.58 463.55 270)
-			(uuid "9cb4388e-15e9-4d5b-97b6-2bd27863e1b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RADIO_RF_CNTL0" input
-			(at 581.66 463.55 270)
-			(uuid "90964cec-fab3-4bae-b5e1-f16cba9649ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RADIO_RF_CNTL2" input
-			(at 584.2 463.55 270)
-			(uuid "305f4175-f9d0-485d-a402-befbd0d84db5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RADIO_RF_CNTL3" input
-			(at 586.74 463.55 270)
-			(uuid "9d367c0b-2a9a-46cf-8475-d4430bf4da72")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RADIO_RF_CNTL4" input
-			(at 590.55 463.55 270)
-			(uuid "7905f8e2-a6af-4e99-b170-5f9941457690")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RADIO_RST_IND" input
-			(at 593.09 463.55 270)
+			(at 515.62 440.69 180)
 			(uuid "c206b878-d54b-47c2-bad9-9d61183722a5")
 			(effects
 				(font
@@ -3743,26 +3785,6 @@
 				(justify left)
 			)
 		)
-		(pin "RADIO_WCI_SIN" input
-			(at 515.62 391.16 180)
-			(uuid "417347c0-501f-459f-b355-c13c2aa07c10")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RADIO_WCI_SOUT" input
-			(at 515.62 393.7 180)
-			(uuid "04983114-1891-43d9-afb1-c35372d633b6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RADIO_WL_DEV_WAKE" input
 			(at 515.62 397.51 180)
 			(uuid "3efd8008-af57-433e-b8bf-5ab172e4c03a")
@@ -3793,9 +3815,9 @@
 				(justify left)
 			)
 		)
-		(pin "RADIO_EXT_STATE/SPI_CLK" input
-			(at 515.62 431.8 180)
-			(uuid "92cf1c29-6ec5-4c28-b1b7-b2a046aed9a2")
+		(pin "RADIO_WL_RST" input
+			(at 515.62 435.61 180)
+			(uuid "36981b5e-9adc-49a1-a922-ab86a6738ddf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,19 +3825,9 @@
 				(justify left)
 			)
 		)
-		(pin "RADIO_EXT_PRI{slash}SPI_TX" input
-			(at 515.62 434.34 180)
-			(uuid "d534381a-9d4f-46c3-ab62-4090021dfbe5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RADIO_EXT_GNT{slash}SPI_RX" input
-			(at 515.62 436.88 180)
-			(uuid "10ab76f0-baeb-4e4c-8e26-410e55b698f1")
+		(pin "RADIO_BT_15.4_RST" input
+			(at 515.62 438.15 180)
+			(uuid "6d44740e-f617-4b78-b4b0-101b20f8c9b4")
 			(effects
 				(font
 					(size 1.27 1.27)

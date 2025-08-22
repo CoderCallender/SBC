@@ -2748,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 160.02) (xy 175.26 160.02)
+			(xy 124.46 160.02) (xy 175.26 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2798,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 175.26 127)
+			(xy 127 127) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
@@ -2888,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 175.26 134.62)
+			(xy 137.16 134.62) (xy 175.26 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3108,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 137.16) (xy 238.76 137.16)
+			(xy 290.83 137.16) (xy 238.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3248,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 91.44) (xy 238.76 91.44)
+			(xy 295.91 91.44) (xy 238.76 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3288,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 101.6) (xy 238.76 101.6)
+			(xy 288.29 101.6) (xy 238.76 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3378,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 99.06) (xy 238.76 99.06)
+			(xy 289.56 99.06) (xy 238.76 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3478,7 +3478,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 114.3) (xy 238.76 114.3)
+			(xy 290.83 114.3) (xy 238.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3488,7 +3488,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 144.78) (xy 175.26 144.78)
+			(xy 127 144.78) (xy 175.26 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 182.88) (xy 175.26 182.88)
+			(xy 135.89 182.88) (xy 175.26 182.88)
 		)
 		(stroke
 			(width 0)
@@ -3638,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 93.98) (xy 238.76 93.98)
+			(xy 289.56 93.98) (xy 238.76 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3738,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 180.34) (xy 175.26 180.34)
+			(xy 129.54 180.34) (xy 175.26 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3838,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 96.52) (xy 238.76 96.52)
+			(xy 289.56 96.52) (xy 238.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3928,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 139.7) (xy 238.76 139.7)
+			(xy 290.83 139.7) (xy 238.76 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4018,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 101.6) (xy 175.26 101.6)
+			(xy 133.35 101.6) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4028,7 +4028,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 114.3) (xy 175.26 114.3)
+			(xy 133.35 114.3) (xy 175.26 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4178,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 149.86) (xy 238.76 149.86)
+			(xy 288.29 149.86) (xy 238.76 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4246,16 +4246,175 @@
 		)
 		(uuid "fe2109a7-fb21-404b-816f-c3db0c02696d")
 	)
-	(hierarchical_label "RADIO_WCI_SOUT"
-		(shape input)
-		(at 151.13 114.3 180)
+	(label "RADIO_RF_CNTL3"
+		(at 135.89 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "032430a2-c364-42f3-a87c-ce69f52cb98b")
+		(uuid "12224103-3d44-4903-8b4f-ffa93290afe0")
+	)
+	(label "RADIO_JTAG_TCK"
+		(at 290.83 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a714c40-d6e9-4c48-b6f1-c3044c22d824")
+	)
+	(label "RADIO_EXT_STATE{slash}SPI_CLK"
+		(at 124.46 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "575b7353-57e0-419b-b80c-fa4d56fd2f95")
+	)
+	(label "RADIO_RF_CNTL2"
+		(at 289.56 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b805246-6e0d-484e-b72b-d00940333409")
+	)
+	(label "RADIO_RF_ANT0"
+		(at 288.29 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e005891-c064-4d8d-9ee7-c5b48de5c520")
+	)
+	(label "RADIO_EXT_PRI{slash}SPI_TX"
+		(at 129.54 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fb073d3-7ac9-4f2d-a0aa-df25961c2ff5")
+	)
+	(label "RADIO_JTAG_TDO"
+		(at 289.56 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c0d3ea3-5d50-4da7-aa27-9b8853185ddb")
+	)
+	(label "RADIO_RF_CNTL4"
+		(at 289.56 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c6a1b33-103d-4f5c-9f8c-e08418cbc8d7")
+	)
+	(label "RADIO_EXT_FREQ{slash}SPI_INT"
+		(at 127 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9408734f-4953-4b59-a1cb-f060376f0230")
+	)
+	(label "RADIO_WCI_SOUT"
+		(at 133.35 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d0ad1dd-ba6f-4998-b005-9bc361ae88ca")
+	)
+	(label "RADIO_JTAG_TDI"
+		(at 288.29 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a37874d0-5f49-415f-a9f2-e6e0f53cd388")
+	)
+	(label "RADIO_EXT_GNT{slash}SPI_RX"
+		(at 295.91 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac5ae8e9-8a02-444b-925d-e2e2621ff7cb")
+	)
+	(label "RADIO__EXT_REQ{slash}SPI_FRM"
+		(at 127 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb74303f-474e-4a39-a7e9-4760e45de377")
+	)
+	(label "RADIO_WCI_SIN"
+		(at 137.16 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5e6e15c-ad70-4160-bb3a-20607b08a621")
+	)
+	(label "RADIO_JTAG_TMS"
+		(at 290.83 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c717e27e-b3e9-4a79-b836-56f5e6f5a894")
+	)
+	(label "RADIO_RF_CNTL0"
+		(at 290.83 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7d00c26-9d95-451a-be83-577942c191e0")
+	)
+	(label "RADIO_GPIO[27]"
+		(at 133.35 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2e3e705-70e6-44d8-ba2b-949dae90c2f6")
 	)
 	(hierarchical_label "RADIO_SD_DAT[0]"
 		(shape input)
@@ -4323,17 +4482,6 @@
 		)
 		(uuid "1aea5f30-1bd3-418c-a503-0b20f9661230")
 	)
-	(hierarchical_label "RADIO__EXT_REQ{slash}SPI_FRM"
-		(shape input)
-		(at 152.4 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "223c8214-ad2b-469b-80a4-998d3dc9a558")
-	)
 	(hierarchical_label "RADIO_BT_15.4_WAKE__HOST"
 		(shape input)
 		(at 152.4 170.18 180)
@@ -4355,17 +4503,6 @@
 			(justify right)
 		)
 		(uuid "3688a261-a4e6-49df-81c1-2f7d892c39af")
-	)
-	(hierarchical_label "RADIO_RF_CNTL0"
-		(shape input)
-		(at 273.05 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43e8bb43-fc0b-4ba2-ba14-9dfa062be400")
 	)
 	(hierarchical_label "RADIO_SD_DAT[1]"
 		(shape input)
@@ -4389,17 +4526,6 @@
 		)
 		(uuid "4bb6b0c4-d12d-451e-9f1b-124ea06c12e1")
 	)
-	(hierarchical_label "RADIO_RF_ANT0"
-		(shape input)
-		(at 273.05 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f26c95e-6232-411d-aacc-f7132f97e02d")
-	)
 	(hierarchical_label "RADIO_UART_TX"
 		(shape input)
 		(at 273.05 106.68 0)
@@ -4410,17 +4536,6 @@
 			(justify left)
 		)
 		(uuid "5c8e8c67-f3d3-46a2-aaf6-1be35c97b665")
-	)
-	(hierarchical_label "RADIO_EXT_STATE/SPI_CLK"
-		(shape input)
-		(at 152.4 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5c981c4a-f24c-4eb3-85b9-7c4c8a7b8168")
 	)
 	(hierarchical_label "RADIO_PCM_DIN"
 		(shape input)
@@ -4443,28 +4558,6 @@
 			(justify left)
 		)
 		(uuid "6863681e-2e9b-46ef-a656-f2c4ad1d3b9d")
-	)
-	(hierarchical_label "RADIO_GPIO[27]"
-		(shape input)
-		(at 151.13 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7194006b-d8a8-4335-9b9b-ab8224041291")
-	)
-	(hierarchical_label "RADIO_RF_CNTL4"
-		(shape input)
-		(at 273.05 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7216f7e6-0b6d-4547-9c34-2e15715e8691")
 	)
 	(hierarchical_label "RADIO_PCM_DOUT"
 		(shape input)
@@ -4499,50 +4592,6 @@
 		)
 		(uuid "819a5ef2-88f2-411e-827c-68395fb0019f")
 	)
-	(hierarchical_label "RADIO_RF_CNTL2"
-		(shape input)
-		(at 273.05 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "827bde0f-b89a-48a9-9d8b-c57ba7dd5fe7")
-	)
-	(hierarchical_label "RADIO_RF_CNTL3"
-		(shape input)
-		(at 152.4 182.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "847e93c2-5c80-4ffd-a4a6-65fc89165e7f")
-	)
-	(hierarchical_label "RADIO_EXT_PRI{slash}SPI_TX"
-		(shape input)
-		(at 152.4 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84e434af-3d73-4db6-bb4d-022cdbc4a876")
-	)
-	(hierarchical_label "RADIO_JTAG_TCK"
-		(shape input)
-		(at 273.05 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85786bd2-6e56-4568-ba4f-981bf719374a")
-	)
 	(hierarchical_label "RADIO_PCM_MCLK"
 		(shape input)
 		(at 152.4 172.72 180)
@@ -4553,17 +4602,6 @@
 			(justify right)
 		)
 		(uuid "94ccfdbc-4998-4ae0-8f62-23da4e0391bc")
-	)
-	(hierarchical_label "RADIO_JTAG_TDI"
-		(shape input)
-		(at 273.05 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "966e45ff-b485-4f2b-b071-84d305a4265d")
 	)
 	(hierarchical_label "RADIO_UART_RTS"
 		(shape input)
@@ -4587,17 +4625,6 @@
 		)
 		(uuid "a788a866-d0dd-407a-b892-6ecf1b9949b4")
 	)
-	(hierarchical_label "RADIO_WCI_SIN"
-		(shape input)
-		(at 152.4 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aff71e01-8de0-4625-aab0-98b066a8cd05")
-	)
 	(hierarchical_label "RADIO_SD_INT"
 		(shape input)
 		(at 152.4 149.86 180)
@@ -4609,28 +4636,6 @@
 		)
 		(uuid "b1cd3a5c-0b87-4866-86f2-e3439dd62ee2")
 	)
-	(hierarchical_label "RADIO_JTAG_TMS"
-		(shape input)
-		(at 273.05 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca18864b-2aa7-4462-b054-0b7926714f0f")
-	)
-	(hierarchical_label "RADIO_EXT_FREQ{slash}SPI_INT"
-		(shape input)
-		(at 152.4 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1ce4e00-31d2-4836-b48c-18bd7512e600")
-	)
 	(hierarchical_label "RADIO_WL_WAKE_HOST"
 		(shape input)
 		(at 273.05 81.28 0)
@@ -4641,28 +4646,6 @@
 			(justify left)
 		)
 		(uuid "d86d8733-af2b-4bd9-b7da-6b880fa543a3")
-	)
-	(hierarchical_label "RADIO_EXT_GNT{slash}SPI_RX"
-		(shape input)
-		(at 273.05 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd6d5977-9ff9-467f-a407-775103a2c3c0")
-	)
-	(hierarchical_label "RADIO_JTAG_TDO"
-		(shape input)
-		(at 273.05 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8bc0880-6ac8-4efa-997d-86e35a2e30d0")
 	)
 	(hierarchical_label "RADIO_SD_CLK"
 		(shape input)
