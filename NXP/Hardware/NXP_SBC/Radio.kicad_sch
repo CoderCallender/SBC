@@ -2878,16 +2878,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 40.64) (xy 76.2 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398730da-cc70-444e-b275-1017d48950f2")
-	)
-	(wire
-		(pts
 			(xy 137.16 134.62) (xy 175.26 134.62)
 		)
 		(stroke
@@ -3118,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 40.64) (xy 76.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5beed19f-7f69-489c-bb1b-0ad2cd9950f9")
+	)
+	(wire
+		(pts
 			(xy 250.19 165.1) (xy 250.19 167.64)
 		)
 		(stroke
@@ -3165,16 +3165,6 @@
 			(type default)
 		)
 		(uuid "5eb51c8c-29ba-4367-aa27-b5e509d0a219")
-	)
-	(wire
-		(pts
-			(xy 245.11 30.48) (xy 245.11 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62a5cf5d-60cd-4049-9fb0-6cdbe6b45039")
 	)
 	(wire
 		(pts
@@ -3948,16 +3938,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 34.29) (xy 262.89 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d737fc07-9f44-4230-82d8-767a2e201362")
-	)
-	(wire
-		(pts
 			(xy 60.96 247.65) (xy 60.96 252.73)
 		)
 		(stroke
@@ -4008,16 +3988,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 34.29) (xy 262.89 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df147b45-b95a-4d97-a36b-66d66d1e5f24")
-	)
-	(wire
-		(pts
 			(xy 133.35 101.6) (xy 175.26 101.6)
 		)
 		(stroke
@@ -4048,7 +4018,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 93.98) (xy 154.94 60.96)
+			(xy 154.94 93.98) (xy 154.94 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4820,6 +4790,72 @@
 	)
 	(symbol
 		(lib_id "power:+1V35")
+		(at 149.86 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e27c61-acfe-488f-b131-1e0a8d723f0b")
+		(property "Reference" "#PWR0134"
+			(at 149.86 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_3V3"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a7540f8-4ab4-4254-b682-27c34635fc69")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/947ee200-c17b-4f36-83aa-57af9c596185"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V35")
 		(at 60.96 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5573,73 +5609,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V35")
-		(at 245.11 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60b8dd42-acd1-4a5f-adf1-8e046e294286")
-		(property "Reference" "#PWR0146"
-			(at 245.11 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RADIO_SD_VIO"
-			(at 245.11 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 245.11 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de7ff3ba-0974-4574-a22f-00d3b2a27b19")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/947ee200-c17b-4f36-83aa-57af9c596185"
-					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V35")
-		(at 154.94 60.96 0)
+		(at 154.94 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5648,7 +5618,7 @@
 		(fields_autoplaced yes)
 		(uuid "60d57fa0-3056-4304-8b3d-2a5bb33b11f1")
 		(property "Reference" "#PWR098"
-			(at 154.94 64.77 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5627,7 @@
 			)
 		)
 		(property "Value" "DCDC_3V3"
-			(at 154.94 55.88 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +5635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 60.96 0)
+			(at 154.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 60.96 0)
+			(at 154.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 154.94 60.96 0)
+			(at 154.94 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,72 +5939,6 @@
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/947ee200-c17b-4f36-83aa-57af9c596185"
 					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V35")
-		(at 76.2 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79dbb09f-0c4e-4bae-83fc-c4083dc8c762")
-		(property "Reference" "#PWR0133"
-			(at 76.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RADIO_VIO"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61882c1d-41bb-4da6-9096-75d4e1b3a8f7")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/947ee200-c17b-4f36-83aa-57af9c596185"
-					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -6764,138 +6668,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V35")
-		(at 165.1 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4e69be0-0b86-4935-a73e-e076b4a3074f")
-		(property "Reference" "#PWR0134"
-			(at 165.1 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RADIO_VIO"
-			(at 165.1 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 165.1 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d39bbe85-748c-4c37-ab58-7accf6ffcbc1")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/947ee200-c17b-4f36-83aa-57af9c596185"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V35")
-		(at 149.86 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b24afaf9-2180-4c57-99d2-87151727df4c")
-		(property "Reference" "#PWR0145"
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "RADIO_SD_VIO"
-			(at 149.86 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 149.86 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21e6b359-8531-4d02-a834-5448d11a87c8")
-		)
-		(instances
-			(project "NXP_SBC"
-				(path "/e82fc437-413b-4185-b609-66f66e24e498/947ee200-c17b-4f36-83aa-57af9c596185"
-					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 337.82 160.02 0)
 		(unit 1)
@@ -7097,6 +6869,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V35")
+		(at 165.1 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df551ec3-87b8-44ec-8266-ee91d906e400")
+		(property "Reference" "#PWR0145"
+			(at 165.1 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "DCDC_3V3"
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V35\""
+			(at 165.1 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc05a204-ff06-455d-bb55-5a3a414bb2b5")
+		)
+		(instances
+			(project "NXP_SBC"
+				(path "/e82fc437-413b-4185-b609-66f66e24e498/947ee200-c17b-4f36-83aa-57af9c596185"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 76.2 50.8 180)
 		(unit 1)
@@ -7236,16 +7074,16 @@
 	)
 	(symbol
 		(lib_id "power:+1V35")
-		(at 262.89 30.48 0)
+		(at 76.2 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8631b69-1f9b-4aae-acdf-f49fe919a6a4")
-		(property "Reference" "#PWR0147"
-			(at 262.89 34.29 0)
+		(uuid "f458462e-15cb-46f4-ac83-775f92f5b013")
+		(property "Reference" "#PWR0133"
+			(at 76.2 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,8 +7091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8_RADIO"
-			(at 262.89 25.4 0)
+		(property "Value" "DCDC_3V3"
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 30.48 0)
+			(at 76.2 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,7 +7109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 30.48 0)
+			(at 76.2 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7118,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V35\""
-			(at 262.89 30.48 0)
+			(at 76.2 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,12 +7127,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "34ea6a8a-1a04-4baf-b4e3-bbbd9998535b")
+			(uuid "8380a3c6-fcc5-476e-8144-57b625e44a2a")
 		)
 		(instances
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/947ee200-c17b-4f36-83aa-57af9c596185"
-					(reference "#PWR0147")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
