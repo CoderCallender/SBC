@@ -2605,6 +2605,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 435.356 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "02f88b19-e37a-41be-bb13-64cef418c342")
+	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 430.276 203.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "165d1e54-a76b-4b48-a8ec-de8024baaf15")
+	)
 	(text "PMIC_STBY_REQ = 0, GPIO_DVFS = 0, output is 1.4V (1.375V + 25mV)\nPMIC_STBY_REQ = 0, GPIO_DVFS = 1, output is 1.3V (1.275V + 25mV)\nPMIC_STBY_REQ = 1, GPIO_DVFS = 0, output is 0.925V (0.9V + 25mV)"
 		(exclude_from_sim no)
 		(at 220.98 28.956 0)
@@ -2614,6 +2640,80 @@
 			)
 		)
 		(uuid "308f4be7-523c-4fab-b650-c35974ef8007")
+	)
+	(text "WHAT IS VDD_SNVS_3V3?"
+		(exclude_from_sim no)
+		(at 515.874 301.244 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8f9ae201-ab95-4978-beb2-b79c8ec1fb9c")
+	)
+	(text "MAKE 5V SUPPLY FOR SPEAKERS"
+		(exclude_from_sim no)
+		(at 217.17 335.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a091ed9d-745d-41c2-a73e-4f1b613d01e2")
+	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 134.874 38.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a54fd87e-c976-4107-b15c-37f073d354ed")
+	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 432.562 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "c8a76388-da21-4868-a0f0-ba697a7b49ff")
+	)
+	(text "2A"
+		(exclude_from_sim no)
+		(at 143.256 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d81e2c42-ac43-43ff-9df0-5e03fefff39c")
+	)
+	(text "MAKE LOW NOISE SUPPLY FOR CODEC"
+		(exclude_from_sim no)
+		(at 219.456 337.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "dd0f882b-d923-460e-9484-38b6ced03e9d")
 	)
 	(text "CHECK CURRENT LIMITS FOR ALL SUPPLIES"
 		(exclude_from_sim no)
