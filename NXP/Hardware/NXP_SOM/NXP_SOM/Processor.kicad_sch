@@ -13859,6 +13859,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C116")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C116")
 					(unit 1)
@@ -13928,6 +13934,12 @@
 			(uuid "8bc41dd5-398f-497d-bfe5-975b5e77a799")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C130")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C130")
@@ -14910,6 +14922,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 5)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 5)
@@ -15891,6 +15909,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 4)
@@ -15957,6 +15981,12 @@
 			(uuid "78124a03-62f4-4105-8f85-0bf539245b7c")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R45")
@@ -16027,6 +16057,12 @@
 			(uuid "7568bb76-f92c-4cab-bf06-f093905e1dff")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C108")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C108")
@@ -17009,6 +17045,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 2)
@@ -17074,6 +17116,12 @@
 			(uuid "87befd33-c6c0-49af-890d-b7a30c5a3b09")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0144")
@@ -17142,6 +17190,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R79")
 					(unit 1)
@@ -17207,6 +17261,12 @@
 			(uuid "5c827970-3407-4f94-935e-59332db5e595")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR063")
@@ -17278,6 +17338,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C124")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C124")
 					(unit 1)
@@ -17343,6 +17409,12 @@
 			(uuid "60d0f37c-0751-4089-af91-749a2e542c60")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0169")
@@ -17410,6 +17482,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0150")
 					(unit 1)
@@ -17475,6 +17553,12 @@
 			(uuid "8a7c6d9c-a926-4142-ba2a-9be34e235291")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0158")
@@ -17542,6 +17626,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR068")
 					(unit 1)
@@ -17608,6 +17698,12 @@
 			(uuid "b8e01129-4ce5-487f-b408-843441d559bc")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R117")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R117")
@@ -17679,6 +17775,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C49")
 					(unit 1)
@@ -17746,6 +17848,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R143")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R143")
 					(unit 1)
@@ -17812,6 +17920,12 @@
 			(uuid "00e07019-330b-47d8-9a7b-1a89e1fa98f4")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R139")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R139")
@@ -17883,6 +17997,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C113")
 					(unit 1)
@@ -17948,6 +18068,12 @@
 			(uuid "49f7a152-329c-4648-9fb7-7fe13db9dec6")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0132")
@@ -18016,6 +18142,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R138")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R138")
 					(unit 1)
@@ -18083,6 +18215,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R140")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R140")
 					(unit 1)
@@ -18147,6 +18285,12 @@
 			(uuid "6e3b76f5-2536-4f5b-9c4a-b095fb986956")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR061")
@@ -18218,6 +18362,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C117")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C117")
 					(unit 1)
@@ -18287,6 +18437,12 @@
 			(uuid "c96ad4fe-8427-4651-abac-60fa07cb438e")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C115")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C115")
@@ -19269,6 +19425,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 6)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 6)
@@ -19334,6 +19496,12 @@
 			(uuid "e471adb9-6038-4642-ac79-d52549213c79")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0156")
@@ -19405,6 +19573,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C121")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C121")
 					(unit 1)
@@ -19472,6 +19646,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R75")
 					(unit 1)
@@ -19538,6 +19718,12 @@
 			(uuid "297908b6-26a9-4e3f-ba32-b9e361287e07")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R115")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R115")
@@ -19609,6 +19795,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C47")
 					(unit 1)
@@ -19674,6 +19866,12 @@
 			(uuid "1a9ef6fb-f500-4368-817f-7312062601d9")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR013")
@@ -19741,6 +19939,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR064")
 					(unit 1)
@@ -19806,6 +20010,12 @@
 			(uuid "13208f41-f6fd-44cc-b79c-79ecd47591e5")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0149")
@@ -20788,6 +20998,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 3)
@@ -20854,6 +21070,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0167")
 					(unit 1)
@@ -20918,6 +21140,12 @@
 			(uuid "2af6bfb1-88ff-4c08-a8c0-623357c968d2")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR065")
@@ -20984,6 +21212,12 @@
 			(uuid "57189fb9-42ff-43a2-bad9-617337d40c07")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0168")
@@ -21966,6 +22200,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 11)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 11)
@@ -22032,6 +22272,12 @@
 			(uuid "293fab1e-fcee-4b53-b4b3-6c98a1488b07")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R144")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R144")
@@ -22102,6 +22348,12 @@
 			(uuid "869c3b66-16c6-4885-a2a9-f8d7cba79f00")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C128")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C128")
@@ -23083,6 +23335,12 @@
 			(uuid "512862f9-f155-43b3-9d51-dc4aff6eab37")
 		)
 		(instances
+			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 10)
+				)
+			)
 			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
@@ -24066,6 +24324,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 7)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 7)
@@ -24130,6 +24394,12 @@
 			(uuid "9b6130eb-7047-42b0-9af7-c0d785d691aa")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR066")
@@ -24201,6 +24471,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C119")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C119")
 					(unit 1)
@@ -24267,6 +24543,12 @@
 			(uuid "c5a1b11e-ef7d-4315-968e-0456421787b5")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R116")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R116")
@@ -24338,6 +24620,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C107")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C107")
 					(unit 1)
@@ -24403,6 +24691,12 @@
 			(uuid "43abc0a1-09a7-43af-8191-4136acd7c3e9")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0157")
@@ -24474,6 +24768,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C51")
 					(unit 1)
@@ -24543,6 +24843,12 @@
 			(uuid "04f77fc9-14d0-48fb-8cc1-a726a0bd7090")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C125")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C125")
@@ -24614,6 +24920,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C54")
 					(unit 1)
@@ -24684,6 +24996,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C50")
 					(unit 1)
@@ -24750,6 +25068,12 @@
 			(uuid "d82ec752-6938-4e4b-837f-a2a426a2106c")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R46")
@@ -24818,6 +25142,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R77")
 					(unit 1)
@@ -24883,6 +25213,12 @@
 			(uuid "5e4b4aef-98bd-4a17-ae6f-005aba50ee35")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0164")
@@ -24950,6 +25286,12 @@
 			(uuid "c4f4daf9-6eb7-4538-889f-efe70ce9f577")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R48")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R48")
@@ -25021,6 +25363,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C126")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C126")
 					(unit 1)
@@ -25086,6 +25434,12 @@
 			(uuid "49b7162c-b534-4ea1-afe9-975089b17ad4")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0162")
@@ -25157,6 +25511,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C48")
 					(unit 1)
@@ -25222,6 +25582,12 @@
 			(uuid "d79100fb-6e54-470b-a946-e91e32805e77")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR070")
@@ -25293,6 +25659,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C53")
 					(unit 1)
@@ -25362,6 +25734,12 @@
 			(uuid "cf84b3dd-377e-4cde-ab17-58eeb0708fb0")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C114")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C114")
@@ -25433,6 +25811,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C118")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C118")
 					(unit 1)
@@ -25498,6 +25882,12 @@
 			(uuid "ee743cb0-66f8-4fc3-8b5a-b0dfa2da6233")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0163")
@@ -25565,6 +25955,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0165")
 					(unit 1)
@@ -25630,6 +26026,12 @@
 			(uuid "48499c4b-1382-4e1d-92f0-7ccf003a5def")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0161")
@@ -25698,6 +26100,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R47")
 					(unit 1)
@@ -25763,6 +26171,12 @@
 			(uuid "03a57740-c9fb-4f9b-afcd-9bdb3bfb0f34")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0166")
@@ -25830,6 +26244,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR069")
 					(unit 1)
@@ -25895,6 +26315,12 @@
 			(uuid "c3dfb1bc-745a-42af-ac09-a7c429ed73f2")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0148")
@@ -25966,6 +26392,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C46")
 					(unit 1)
@@ -26036,6 +26468,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C129")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C129")
 					(unit 1)
@@ -26105,6 +26543,12 @@
 			(uuid "6bee24fc-59d9-4675-b7a4-2e7682c75cd9")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C120")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C120")
@@ -27087,6 +27531,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 1)
@@ -27153,6 +27603,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0159")
 					(unit 1)
@@ -27218,6 +27674,12 @@
 			(uuid "9f1e5f9d-0e4b-4b3d-ba81-337680945928")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR062")
@@ -27289,6 +27751,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C123")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C123")
 					(unit 1)
@@ -27355,6 +27823,12 @@
 			(uuid "9bf178bb-45d3-4c06-b6bf-027a5282453b")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R78")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R78")
@@ -27425,6 +27899,12 @@
 			(uuid "e16bb485-52b6-4cb1-a781-f6840abb1563")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C52")
@@ -28407,6 +28887,12 @@
 		)
 		(instances
 			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 8)
+				)
+			)
+			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")
 					(unit 8)
@@ -28473,6 +28959,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR067")
 					(unit 1)
@@ -28538,6 +29030,12 @@
 			(uuid "98d1db54-b8ff-4f9f-b07e-92d26313b62f")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0160")
@@ -28606,6 +29104,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R76")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R76")
 					(unit 1)
@@ -28672,6 +29176,12 @@
 			(uuid "6a467173-6554-4451-9a80-57889cccf048")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R142")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R142")
@@ -28743,6 +29253,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C122")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C122")
 					(unit 1)
@@ -28808,6 +29324,12 @@
 			(uuid "35041aca-ff22-4fde-900b-b7fdc7abfefc")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0171")
@@ -28875,6 +29397,12 @@
 			(uuid "6dc8292e-d640-4bd8-89b8-267d9323e06a")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R141")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R141")
@@ -28946,6 +29474,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C55")
 					(unit 1)
@@ -29011,6 +29545,12 @@
 			(uuid "90344370-4638-4331-9130-ffad110888e5")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "#PWR0170")
@@ -29082,6 +29622,12 @@
 		)
 		(instances
 			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "C127")
+					(unit 1)
+				)
+			)
+			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "C127")
 					(unit 1)
@@ -29148,6 +29694,12 @@
 			(uuid "d259a3eb-6c55-4f27-bc88-e20e96e5ec07")
 		)
 		(instances
+			(project "NXP_SBC"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "R80")
+					(unit 1)
+				)
+			)
 			(project "NXP_SBC"
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "R80")
@@ -30129,6 +30681,12 @@
 			(uuid "512862f9-f155-43b3-9d51-dc4aff6eab3b")
 		)
 		(instances
+			(project ""
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659/73677631-218e-4ecb-b640-1392342906d6"
+					(reference "U1")
+					(unit 9)
+				)
+			)
 			(project ""
 				(path "/e82fc437-413b-4185-b609-66f66e24e498/0ea4c833-27a6-4c6c-939d-80a3ef0aae04"
 					(reference "U1")

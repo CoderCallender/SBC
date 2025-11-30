@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7b5c851c-1a5f-42bc-a687-b5b74b962659")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 166.37 83.82)
+		(size 41.91 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73677631-218e-4ecb-b640-1392342906d6")
+		(property "Sheetname" "Processor"
+			(at 166.37 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Processor.kicad_sch"
+			(at 166.37 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SOM"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 26.67)
+		(size 55.88 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b2a0e99c-f5ed-4ab0-857d-1787043197d1")
+		(property "Sheetname" "SOM Connector"
+			(at 205.74 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SOM_connector.kicad_sch"
+			(at 205.74 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SOM"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 87.63)
+		(size 45.72 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b37b8aec-61bb-4909-ae44-a36fd0b4c703")
+		(property "Sheetname" "RAM"
+			(at 77.47 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory_sch.kicad_sch"
+			(at 77.47 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SOM"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 25.4)
+		(size 46.99 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c60d6b2e-3c7e-4c48-b932-e0a6d52786fd")
+		(property "Sheetname" "Power"
+			(at 19.05 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 19.05 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NXP_SOM"
+				(path "/7b5c851c-1a5f-42bc-a687-b5b74b962659"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
