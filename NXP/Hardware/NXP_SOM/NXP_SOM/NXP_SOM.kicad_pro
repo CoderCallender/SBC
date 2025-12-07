@@ -428,6 +428,10 @@
     [
       "b2a0e99c-f5ed-4ab0-857d-1787043197d1",
       "SOM Connector"
+    ],
+    [
+      "d1e42f93-5ae7-4387-8550-740daaf6c4ad",
+      "Ethernet_PHY"
     ]
   ],
   "text_variables": {}
